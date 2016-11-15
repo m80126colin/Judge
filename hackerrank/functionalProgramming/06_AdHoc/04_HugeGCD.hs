@@ -23,8 +23,6 @@ primes' s@(x:xs) ys
 primes :: Int -> [Int]
 primes n = primes' [2 .. n] []
 
-pr10000 = primes 10000
-
 count' :: Int -> Int -> Int -> Int
 count' n c t
   | n < c            = t
@@ -34,14 +32,26 @@ count' n c t
 count :: Int -> Int -> Int
 count n c = count' n c 0
 
-factor :: Int -> [Int]
-factor = zipWith (flip count) pr10000 . repeat
-
-divisor :: Int
-divisor = 1000000007
+factor :: Int -> Int -> [Int]
+factor p = zipWith (flip count) (primes p) . repeat
 
 solve :: [[Int]] -> Int
-solve = foldr (\a -> flip mod divisor . (*) a) 1 . concat . zipWith (flip replicate) pr10000 . foldr1 (zipWith min) . map (foldr1 (zipWith (+)) . map factor)
+solve = findResidueFromFactor . factorGcd . map factorList
+  where
+    divisor :: Int
+    divisor = 1000000007
+
+    limit :: Int
+    limit = 10000
+
+    factorList :: [Int] -> [Int]
+    factorList = foldr1 (zipWith (+)) . map (factor limit)
+
+    factorGcd :: [[Int]] -> [Int]
+    factorGcd = foldr1 (zipWith min)
+    
+    findResidueFromFactor :: [Int] -> Int
+    findResidueFromFactor = foldr (\a -> flip mod divisor . (*) a) 1 . concat . zipWith (flip replicate) (primes limit)
 
 main :: IO ()
 main =
