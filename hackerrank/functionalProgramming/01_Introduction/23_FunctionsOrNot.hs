@@ -6,7 +6,7 @@ solve xs = if test then "YES" else "NO"
 unique :: Eq a => [a] -> [a]
 unique []     = []
 unique (x:xs) = if test then ys else x:ys
-  where test = ((<) 0 . length . filter (x ==)) ys
+  where test = (not . null . filter (x ==)) ys
         ys   = unique xs
 
 replicateM :: Monad m => Int -> m a -> m [a]
@@ -16,15 +16,15 @@ replicateM n f = foldr g (return []) (replicate n f)
                 return (x:xs)
 
 readInt :: IO Int
-readInt = do
+readInt =
   getLine >>= return . read
 
 readCase :: IO [[Int]]
-readCase = do
+readCase =
   readInt >>= flip replicateM getLine
           >>= return . map (map read . words)
 
 main :: IO ()
-main = do
+main =
   readInt >>= flip replicateM readCase
           >>= mapM_ (putStrLn . solve)

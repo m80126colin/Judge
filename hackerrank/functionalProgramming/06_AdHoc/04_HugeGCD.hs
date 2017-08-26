@@ -1,4 +1,5 @@
 import Control.Monad
+import Control.Applicative
 
 {-
 
@@ -13,45 +14,38 @@ solve xs = mod (gcd (head ys) (last ys)) divisor
 
 -}
 
-primes' :: [Int] -> [Int] -> [Int]
-primes' []       ys = reverse ys
-primes' s@(x:xs) ys
-  | test      = reverse ys ++ s
-  | otherwise = primes' (filter ((/=) 0 . flip mod x) xs) (x:ys)
-  where test = x > (floor . sqrt . fromIntegral . last) s
+seige :: Integral a => a -> [a]
+seige n
+  | n < 2     = []
+  | otherwise = primes ++ filter ps [sqn + 1 .. n]
+  where sqn    = floor . sqrt . fromIntegral $ n
+        primes = seige sqn
+        ps x   = flip all primes $ (/=) 0 . mod x
 
-primes :: Int -> [Int]
-primes n = primes' [2 .. n] []
+count :: Integral a => a -> a -> a
+count 0 _ = 0
+count n c = if mod n c == 0 then 1 + count (div n c) c else 0
 
-count' :: Int -> Int -> Int -> Int
-count' n c t
-  | n < c            = t
-  | (/=) (mod n c) 0 = t
-  | otherwise        = count' (div n c) c (t + 1)
+factor :: Integral a => a -> a -> [a]
+factor p n = count n <$> seige p
 
-count :: Int -> Int -> Int
-count n c = count' n c 0
+factorList :: Integral a => a -> [a] -> [a]
+factorList p = foldr1 (zipWith (+)) . map (factor p)
 
-factor :: Int -> Int -> [Int]
-factor p = zipWith (flip count) (primes p) . repeat
+gcdByFactorList :: Integral a => [[a]] -> [a]
+gcdByFactorList = foldr1 (zipWith min)
 
 solve :: [[Int]] -> Int
-solve = findResidueFromFactor . factorGcd . map factorList
+solve = findResidueFromFactor . gcdByFactorList . map (factorList limit)
   where
     divisor :: Int
     divisor = 1000000007
 
     limit :: Int
     limit = 10000
-
-    factorList :: [Int] -> [Int]
-    factorList = foldr1 (zipWith (+)) . map (factor limit)
-
-    factorGcd :: [[Int]] -> [Int]
-    factorGcd = foldr1 (zipWith min)
     
     findResidueFromFactor :: [Int] -> Int
-    findResidueFromFactor = foldr (\a -> flip mod divisor . (*) a) 1 . concat . zipWith (flip replicate) (primes limit)
+    findResidueFromFactor = foldr (\a -> flip mod divisor . (*) a) 1 . concat . zipWith (flip replicate) (seige limit)
 
 main :: IO ()
 main =
