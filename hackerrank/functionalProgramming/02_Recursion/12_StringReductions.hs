@@ -1,6 +1,6 @@
 import Control.Monad
 
-solve :: String -> String
+solve :: Eq a => [a] -> [a]
 solve [] = []
 solve (x:xs) = x : (solve $ filter (/= x) xs)
 
