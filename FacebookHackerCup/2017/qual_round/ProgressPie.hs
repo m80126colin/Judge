@@ -13,16 +13,13 @@ list2tup xs = (head xs, last xs)
 normal :: Double -> Double
 normal x = (x - factor) / factor
 
-getSolve :: [Double] -> String
-getSolve xs = if and [percent <= head xs, distance < 1] then "black" else "white"
+solve :: [Double] -> String
+solve xs = if and [percent <= head xs, distance < 1] then "black" else "white"
   where
     normaler = normal <$> tail xs
     angle    = uncurry atan2 . list2tup $ normaler
     percent  = (angle + if angle < 0 then 2 * pi else 0) * factor / pi
     distance = sqrt . sum . map (\x -> x * x) $ normaler
-
-solve :: (Int, [Double]) -> (Int, String)
-solve (n, xs) = (n, getSolve xs)
 
 getInt :: IO Int
 getInt = getLine >>= return . read
@@ -35,4 +32,4 @@ printCase (n, str) = putStrLn . concat $ ["Case #", show n, ": ", str]
 
 main :: IO ()
 main = getInt >>= \n -> replicateM n getCase
-              >>= mapM_ (printCase . solve) . zip (generate n)
+              >>= mapM_ printCase. zip (generate n) . map solve
