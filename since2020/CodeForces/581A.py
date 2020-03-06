@@ -1,8 +1,9 @@
 '''
-	CodeForces 581A
-	Vasya the Hipster
+	@judge CodeForces
+	@id 581A
+	@name Vasya the Hipster
 
-	Tags: Math
+	@tag Math
 '''
 tup = tuple(map(int, input().split()))
 mn, mx = min(tup), max(tup)

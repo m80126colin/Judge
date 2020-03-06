@@ -1,6 +1,7 @@
 '''
-	CodeForces 959A
-	Mahmoud and Ehab and the even-odd game
+	@judge CodeForces
+	@id 959A
+	@name Mahmoud and Ehab and the even-odd game
 
 	Proof:
 
@@ -16,7 +17,7 @@
 	* When n is even, Mahmoud chooses n, then Mahoud wins.
 	* When n is odd, Mahmoud cannot turn into the state Ehab has no move, then Ehab wins.
 
-	Tags: Game, Math
+	@tag Game, Math
 '''
 n = input()
 

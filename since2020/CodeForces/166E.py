@@ -1,8 +1,9 @@
 '''
-	CodeForces 166E
-	Tetrahedron
+	@judge CodeForces
+	@id 166E
+	@name Tetrahedron
 
-	Tags: Transition matrix
+	@tag Transition matrix
 '''
 MOD = 1000000007
 

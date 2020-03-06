@@ -1,8 +1,9 @@
 '''
-	CodeForces 25A
-	IQ test
+	@judge CodeForces
+	@id 25A
+	@name IQ test
 
-	Tags: Ad-hoc
+	@tag Ad-hoc
 '''
 input()
 s = ''.join(list(map(lambda x: str(int(x) % 2), input().split())))

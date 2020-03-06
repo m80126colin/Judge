@@ -1,8 +1,9 @@
 '''
-	CodeForces 1284A
-	New Year and Naming
+	@judge CodeForces
+	@id 1284A
+	@name New Year and Naming
 
-	Tags: Math
+	@tag Math
 '''
 def solve(x, n, m, L1, L2):
 	return L1[(x - 1) % n] + L2[(x - 1) % m]

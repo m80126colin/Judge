@@ -1,6 +1,11 @@
 /**
-	CodeForces Round #624 div.3
-*/
+ *  @judge CodeForces
+ *  @id 1311A
+ *  @name Add Odd or Subtract Even
+ *  @contest CodeForces Round #624 div.3
+ * 
+ *  @tag Ad-hoc
+ */
 #include <iostream>
 using namespace std;
 

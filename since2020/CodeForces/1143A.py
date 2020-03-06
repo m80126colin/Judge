@@ -1,8 +1,9 @@
 '''
-	CodeForces 1143A
-	The Doors
+	@judge CodeForces
+	@id 1143A
+	@name The Doors
 
-	Tags: Ad-hoc
+	@tag Ad-hoc
 '''
 input()
 s   = input()

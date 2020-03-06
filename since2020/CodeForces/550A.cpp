@@ -1,3 +1,10 @@
+/**
+ * 	@judge CodeForces
+ * 	@id 550A
+ * 	@name Two Substrings
+ * 
+ * 	@tag String manipulation
+ */
 #include <iostream>
 using namespace std;
 

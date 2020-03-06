@@ -1,8 +1,9 @@
 '''
-	CodeForces 835A
-	Key races
+	@judge CodeForces
+	@id 835A
+	@name Key races
 
-	Tags: Ad-hoc, Math
+	@tag Ad-hoc, Math
 '''
 def tripleCond(L, R, s1 = '', s2 = '', s3 = ''):
 	if L < R:

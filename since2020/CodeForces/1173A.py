@@ -1,8 +1,9 @@
 '''
-	CodeForces 1173A
-	Nauuo and Votes
+	@judge CodeForces
+	@id 1173A
+	@name Nauuo and Votes
 
-	Tags: Ad-hoc, Math
+	@tag Ad-hoc, Math
 '''
 def sign(n):
 	if n > 0:

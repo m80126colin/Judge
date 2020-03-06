@@ -1,8 +1,9 @@
 '''
-	CodeForces 650A
-	Watchmen
+	@judge CodeForces
+	@id 650A
+	@name Watchmen
 
-	Tags: Math
+	@tag Math
 '''
 from sys import stdin
 from collections import Counter

@@ -1,8 +1,10 @@
 /**
- *  CodeForces 1320B, Round #625 div.2 D
- *  Navigation System
+ *  @judge CodeForces
+ *  @id 1320B
+ *  @name Navigation System
+ *  @contest CodeForces Round #625 div.2
  * 
- *  Tags: BFS
+ *  @tag BFS
  */
 #include <iostream>
 #include <vector>

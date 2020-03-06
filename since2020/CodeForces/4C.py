@@ -1,8 +1,9 @@
 '''
-	CodeForces 4C
-	Registration system
+	@judge CodeForces
+	@id 4C
+	@name Registration system
 
-	Tags: Simulation
+	@tag Simulation
 '''
 from sys import stdin
 

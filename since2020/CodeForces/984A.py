@@ -1,8 +1,9 @@
 '''
-	CodeForces 984A
-	Game
+	@judge CodeForces
+	@id 984A
+	@name Game
 
-	Tags: Sorting
+	@tag Sorting
 '''
 input()
 res = sorted(map(int, input().split()))

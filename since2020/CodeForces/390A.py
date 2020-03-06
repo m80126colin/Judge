@@ -1,8 +1,9 @@
 '''
-	CodeForces 309A
-	Inna and Alarm Clock
+	@judge CodeForces
+	@id 309A
+	@name Inna and Alarm Clock
 
-	Tags: Counting
+	@tag Counting
 '''
 n = int(input())
 

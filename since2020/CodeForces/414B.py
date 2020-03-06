@@ -1,8 +1,9 @@
 '''
-	CodeForces 414B
-	Mashmokh and ACM
+	@judge CodeForces
+	@id 414B
+	@name Mashmokh and ACM
 
-	Tags: dp, Math
+	@tag dp, Math
 '''
 
 MOD = 1000000007

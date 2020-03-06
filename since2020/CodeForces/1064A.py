@@ -1,8 +1,9 @@
 '''
-	CodeForces 1064A
-	Make a triangle!
+	@judge CodeForces
+	@id 1064A
+	@name Make a triangle!
 
-	Tags: Math
+	@tag Math
 '''
 arr = list(map(int, input().split()))
 ans = 2 * max(arr) - sum(arr) + 1

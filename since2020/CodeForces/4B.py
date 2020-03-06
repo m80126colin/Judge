@@ -1,8 +1,9 @@
 '''
-	CodeForces 4B
-	Before an Exam
+	@judge CodeForces
+	@id 4B
+	@name Before an Exam
 
-	Tags: dp, Math, Knapsack
+	@tag dp, Math, Knapsack
 '''
 from sys import stdin
 

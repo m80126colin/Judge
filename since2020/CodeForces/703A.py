@@ -1,8 +1,9 @@
 '''
-	CodeForces 703A
-	Mishka and Game
+	@judge CodeForces
+	@id 703A
+	@name Mishka and Game
 
-	Tags: Counting, Ad-hoc
+	@tag Counting, Ad-hoc
 '''
 def tripleCond(L, R, s1 = '', s2 = '', s3 = ''):
 	if L > R:

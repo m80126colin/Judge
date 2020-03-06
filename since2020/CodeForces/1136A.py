@@ -1,8 +1,9 @@
 '''
-	CodeForces 1136A
-	Nastya Is Reading a Book
+	@judge CodeForces
+	@id 1136A
+	@name Nastya Is Reading a Book
 
-	Tags: Counting
+	@tag Counting
 '''
 n = int(input())
 chapters = list(map(lambda x: int(input().split()[-1]), range(n)))

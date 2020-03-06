@@ -1,6 +1,11 @@
 /**
-	CodeForces Round #624 div.3
-*/
+ *  @judge CodeForces
+ *  @id 1311C
+ *  @name Perform the Combo
+ *  @contest CodeForces Round #624 div.3
+ * 
+ *  @tag Countings
+ */
 #include <iostream>
 #include <algorithm>
 using namespace std;

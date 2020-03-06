@@ -1,8 +1,9 @@
 '''
-	CodeForces 1220A
-	Cards
+	@judge CodeForces
+	@id 1220A
+	@name Cards
 
-	Tags: Counting
+	@tag Counting
 '''
 from collections import Counter
 

@@ -1,8 +1,9 @@
 '''
-	CodeForces 1146A
-	Love "A"
+	@judge CodeForces
+	@id 1146A
+	@name Love "A"
 
-	Tags: String manipulation
+	@tag String manipulation
 '''
 s = input()
 ans = len(s) - s.count('a') * 2

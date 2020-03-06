@@ -1,3 +1,10 @@
+'''
+	@judge CodeForces
+	@id 1B
+	@name Spreadsheets
+
+	@tag Base Conversion
+'''
 from sys import stdin
 import re
 

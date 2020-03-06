@@ -1,8 +1,9 @@
 '''
-	CodeForces 1017A
-	The Rank
+	@judge CodeForces
+	@id 1017A
+	@name The Rank
 
-	Tags: Search
+	@tag Search
 '''
 from sys import stdin
 from bisect import bisect_left

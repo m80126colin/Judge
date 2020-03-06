@@ -1,8 +1,9 @@
 '''
-	CodeForces 1092B
-	Teams Forming
+	@judge CodeForces
+	@id 1092B
+	@name Teams Forming
 
-	Tags: Sorting
+	@tag Sorting
 '''
 n   = int(input())
 arr = sorted(map(int, input().split()), key=lambda x: -x)

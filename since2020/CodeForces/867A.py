@@ -1,8 +1,9 @@
 '''
-	CodeForces 867A
-	Between the Offices
+	@judge CodeForces
+	@id 867A
+	@name Between the Offices
 
-	Tags: String Manipulation
+	@tag String Manipulation
 '''
 input()
 s = input()

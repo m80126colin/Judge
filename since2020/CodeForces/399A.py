@@ -1,8 +1,9 @@
 '''
-	CodeForces 399A
-	Pages
+	@judge CodeForces
+	@id 399A
+	@name Pages
 
-	Tags: Simulation
+	@tag Simulation
 '''
 n, p, k = list(map(int, input().split()))
 

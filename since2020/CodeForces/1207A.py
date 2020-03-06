@@ -1,8 +1,9 @@
 '''
-	CodeForces 1207A
-	There Are Two Types Of Burgers
+	@judge CodeForces
+	@id 1207A
+	@name There Are Two Types Of Burgers
 
-	Tags: Math, Greedy, Knapsack
+	@tag Math, Greedy, Knapsack
 '''
 def testCase():
 	bun, p, f = tuple(map(int, input().split()))

@@ -1,8 +1,9 @@
 '''
-	CodeForces 545C
-	Woodcutters
+	@judge CodeForces
+	@id 545C
+	@name Woodcutters
 
-	Tags: Greedy
+	@tag Greedy
 '''
 from sys import stdin
 from functools import reduce

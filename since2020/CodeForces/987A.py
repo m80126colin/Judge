@@ -1,8 +1,9 @@
 '''
-	CodeForces 987A
-	Infinity Gauntlet
+	@judge CodeForces
+	@id 987A
+	@name Infinity Gauntlet
 
-	Tags: Ad-hoc
+	@tag Ad-hoc
 '''
 from sys import stdin
 

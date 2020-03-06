@@ -1,8 +1,9 @@
 '''
-	CodeForces 1257A
-	Two Rival Students
+	@judge CodeForces
+	@id 1257A
+	@name Two Rival Students
 
-	Tags: Math
+	@tag Math
 '''
 def testCase():
 	n, x, a, b = tuple(map(int, input().split()))

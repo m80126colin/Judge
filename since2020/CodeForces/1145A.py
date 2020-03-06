@@ -1,8 +1,9 @@
 '''
-	CodeForces 1145A
-	Thanos Sort
+	@judge CodeForces
+	@id 1145A
+	@name Thanos Sort
 
-	Tags: recursion
+	@tag recursion
 '''
 def checkSortedOrThanos(ms):
 	if len(ms) == 1:

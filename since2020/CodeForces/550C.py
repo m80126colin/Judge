@@ -1,8 +1,9 @@
 '''
-	CodeForces 550C
-	Divisibility by Eight
+	@judge CodeForces
+	@id 550C
+	@name Divisibility by Eight
 
-	Tags: Math, Trie
+	@tag Math, Trie
 '''
 class Trie:
 	def __init__(self):

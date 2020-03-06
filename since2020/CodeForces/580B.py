@@ -1,8 +1,9 @@
 '''
-	CodeForces 580B
-	Kefa and Company
+	@judge CodeForces
+	@id 580B
+	@name Kefa and Company
 
-	Tags: dp, Maximum Consecutive Sum
+	@tag dp, Maximum Consecutive Sum
 '''
 from sys import stdin
 

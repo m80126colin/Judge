@@ -1,8 +1,9 @@
 '''
-	CodeForces 580C
-	Kefa and Park
+	@judge CodeForces
+	@id 580C
+	@name Kefa and Park
 
-	Tags: dfs
+	@tag dfs
 '''
 from sys import stdin
 

@@ -1,8 +1,9 @@
 '''
-	CodeForces 160A
-	Twins
+	@judge CodeForces
+	@id 160A
+	@name Twins
 
-	Tags: Greedy
+	@tag Greedy
 '''
 from functools import reduce
 

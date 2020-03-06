@@ -1,8 +1,9 @@
 '''
-	CodeForces 1186A
-	Vus the Cossack and a Contest
+	@judge CodeForces
+	@id 1186A
+	@name Vus the Cossack and a Contest
 
-	Tags: Ad-hoc
+	@tag Ad-hoc
 '''
 n, m, k = tuple(map(int, input().split()))
 

@@ -1,8 +1,9 @@
 '''
-	CodeForces 550C
-	Divisibility by Eight
+	@judge CodeForces
+	@id 550C
+	@name Divisibility by Eight
 
-	Tags: Math, Ad-hoc
+	@tag Math, Ad-hoc
 '''
 def solve(s, res):
 	n = len(s)

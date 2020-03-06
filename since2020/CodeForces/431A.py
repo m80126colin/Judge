@@ -1,8 +1,9 @@
 '''
-	CodeForces 431A
-	Black Square
+	@judge CodeForces
+	@id 431A
+	@name Black Square
 
-	Tags: Simulation
+	@tag Simulation
 '''
 cals = list(map(int, input().split()))
 ans  = sum(map(lambda idx: cals[int(idx) - 1], input()))

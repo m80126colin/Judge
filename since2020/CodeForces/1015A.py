@@ -1,8 +1,9 @@
 '''
-	CodeForces 1015A
-	Points in Segments
+	@judge CodeForces
+	@id 1015A
+	@name Points in Segments
 
-	Tags: Simulation
+	@tag Simulation
 '''
 from sys import stdin
 from functools import reduce

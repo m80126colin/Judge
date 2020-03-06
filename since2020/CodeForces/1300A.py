@@ -1,8 +1,9 @@
 '''
-	CodeForce 1300A
-	Non-zero
+	@judge CodeForces
+	@id 1300A
+	@name Non-zero
 	
-	Tags: Math, Ad-hoc
+	@tag Math, Ad-hoc
 '''
 t = int(input())
 

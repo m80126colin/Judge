@@ -1,6 +1,11 @@
 /**
-	CodeForces Round #624 div.3
-*/
+ *  @judge CodeForces
+ *  @id 1311D
+ *  @name Three Integers
+ *  @contest CodeForces Round #624 div.3
+ * 
+ *  @tag Math, Ad-hoc
+ */
 #include <iostream>
 using namespace std;
 
