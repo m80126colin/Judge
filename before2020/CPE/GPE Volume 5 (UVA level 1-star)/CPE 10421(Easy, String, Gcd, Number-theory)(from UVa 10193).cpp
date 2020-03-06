@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10421
+ *  @tag Easy, String, Gcd, Number theory
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

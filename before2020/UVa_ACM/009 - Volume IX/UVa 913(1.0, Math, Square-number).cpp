@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 913
+ *  @tag 1.0, Math, Square number
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

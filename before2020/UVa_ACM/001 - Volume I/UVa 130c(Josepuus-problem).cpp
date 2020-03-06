@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 130c
+ *  @tag Josepuus problem
+ */
 #include <stdio.h>
 int main() {
 	int p[100],i,j,n,k,ctr,step,record;

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 2008-01
+ *  @tag Simple, Combination, Recursive
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

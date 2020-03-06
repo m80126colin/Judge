@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10050
+ *  @tag Easy, Ad hoc
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

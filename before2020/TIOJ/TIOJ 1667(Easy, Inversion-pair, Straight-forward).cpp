@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1667
+ *  @tag Easy, Inversion pair, Straight forward
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

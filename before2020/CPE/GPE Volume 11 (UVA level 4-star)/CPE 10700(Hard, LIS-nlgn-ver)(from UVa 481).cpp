@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10700
+ *  @tag Hard, LIS nlgn ver
+ */
 #include <iostream>
 #include <algorithm>
 #include <vector>

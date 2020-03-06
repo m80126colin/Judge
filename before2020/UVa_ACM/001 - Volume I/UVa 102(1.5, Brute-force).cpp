@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 102
+ *  @tag 1.5, Brute force
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

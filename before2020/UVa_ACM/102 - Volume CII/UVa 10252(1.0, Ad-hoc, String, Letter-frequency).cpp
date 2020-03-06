@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10252
+ *  @tag 1.0, Ad hoc, String, Letter frequency
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

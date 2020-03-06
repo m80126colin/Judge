@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10200
+ *  @tag Simple, Prime, Brute force, Floating error
+ */
 #include <stdio.h>
 #include <string.h>
 #include <math.h>

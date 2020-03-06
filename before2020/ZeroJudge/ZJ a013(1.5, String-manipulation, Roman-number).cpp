@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a013
+ *  @tag String manipulation, Roman number
+ */
 #include <cstdio>
 #include <cstring>
 #include <cstdlib>

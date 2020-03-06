@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 11485
+ *  @tag Simple, Math, Prime, Factor
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

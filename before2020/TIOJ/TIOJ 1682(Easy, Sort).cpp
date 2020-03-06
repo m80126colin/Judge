@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1682
+ *  @tag Easy, Sort
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <iostream>

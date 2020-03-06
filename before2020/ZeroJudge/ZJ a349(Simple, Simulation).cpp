@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a349
+ *  @tag Simple, Simulation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

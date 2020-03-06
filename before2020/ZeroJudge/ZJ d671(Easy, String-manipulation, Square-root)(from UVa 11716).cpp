@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d671
+ *  @tag Easy, String manipulation, Square root
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

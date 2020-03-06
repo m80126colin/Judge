@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11616
+ *  @tag 1.5, String manipulation, Roman number
+ */
 #include <cstdio>
 #include <cstring>
 #include <cstdlib>

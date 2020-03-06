@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d526
+ *  @tag Binary search tree
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

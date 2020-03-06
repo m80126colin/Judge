@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 12019
+ *  @tag 1.0, Ad hoc, Math, Date problem
+ */
 #include <iostream>
 #include <stdio.h>
 using namespace std;

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 401
+ *  @tag Palindrome, String manipulation
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10462
+ *  @tag Easy, Brute force, Queue, Simulation, Poker
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

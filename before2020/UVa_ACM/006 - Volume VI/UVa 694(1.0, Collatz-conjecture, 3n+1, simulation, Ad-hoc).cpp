@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 694
+ *  @tag 1.0, Collatz conjecture, 3n+1, simulation, Ad hoc
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

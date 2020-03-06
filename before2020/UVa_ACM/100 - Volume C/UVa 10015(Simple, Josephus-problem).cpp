@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10015
+ *  @tag Simple, Josephus problem
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

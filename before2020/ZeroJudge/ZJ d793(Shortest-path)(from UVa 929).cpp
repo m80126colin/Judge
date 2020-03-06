@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d793
+ *  @tag Shortest path
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

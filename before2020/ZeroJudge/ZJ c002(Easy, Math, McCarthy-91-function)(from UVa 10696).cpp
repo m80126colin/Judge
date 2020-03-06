@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id c002
+ *  @tag Easy, Math, McCarthy 91 function
+ */
 #include <iostream>
 using namespace std;
 

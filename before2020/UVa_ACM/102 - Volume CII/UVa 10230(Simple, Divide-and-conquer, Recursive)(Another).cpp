@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10230
+ *  @tag Simple, Divide and conquer, Recursive
+ */
 #include <stdio.h>
 
 #define MAX 1030

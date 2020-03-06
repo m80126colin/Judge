@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 146
+ *  @tag 1.0, Next permutation, Permutation, Recursive
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

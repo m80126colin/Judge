@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 665
+ *  @tag Simple, Simulation, False coin
+ */
 #include <iostream>
 using namespace std;
 

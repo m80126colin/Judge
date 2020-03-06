@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 1654
+ *  @tag Simple, DP
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

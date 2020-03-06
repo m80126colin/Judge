@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 623
+ *  @tag 2.0, Big number, Factorial
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

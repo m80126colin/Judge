@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10476
+ *  @tag Simple, Big number, Number theory
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

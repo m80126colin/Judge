@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 880
+ *  @tag 1.5, Math, Cantor, Triangular number
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

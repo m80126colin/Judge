@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11462
+ *  @tag Simple, Counting sort
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11349
+ *  @tag Easy, Ad hoc
+ */
 #include <stdio.h>
 #include <iostream>
 #define N 110

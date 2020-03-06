@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11480
+ *  @tag Brute force, Math, DP
+ */
 #include <stdio.h>
 #include <iostream>
 #define N 1000020

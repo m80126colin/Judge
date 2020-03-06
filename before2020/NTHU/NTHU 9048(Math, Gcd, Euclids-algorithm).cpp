@@ -1,3 +1,8 @@
+/**
+ *  @judge NTHU
+ *  @id 9048
+ *  @tag Math, Gcd, Euclids algorithm
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

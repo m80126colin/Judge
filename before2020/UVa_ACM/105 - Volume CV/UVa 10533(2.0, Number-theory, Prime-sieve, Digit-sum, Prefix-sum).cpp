@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10533
+ *  @tag 2.0, Number theory, Prime sieve, Digit sum, Prefix sum
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

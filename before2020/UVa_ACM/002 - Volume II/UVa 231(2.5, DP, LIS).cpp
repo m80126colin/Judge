@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 231
+ *  @tag 2.5, DP, LIS
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

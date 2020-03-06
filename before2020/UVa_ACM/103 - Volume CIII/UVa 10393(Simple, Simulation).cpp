@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10393
+ *  @tag Simple, Simulation
+ */
 #include <iostream>
 #include <map>
 #include <stdio.h>

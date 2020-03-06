@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 574
+ *  @tag 2.0, Recursive, Subset sum
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

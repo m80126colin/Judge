@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d387
+ *  @tag 1.5, Number theory, Prime sieve, Emirp
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

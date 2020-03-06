@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 499
+ *  @tag Letter frequency, Brute force
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10330
+ *  @tag Max flow
+ */
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>

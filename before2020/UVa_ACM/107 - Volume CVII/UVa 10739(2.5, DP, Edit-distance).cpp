@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10739
+ *  @tag 2.5, DP, Edit distance
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

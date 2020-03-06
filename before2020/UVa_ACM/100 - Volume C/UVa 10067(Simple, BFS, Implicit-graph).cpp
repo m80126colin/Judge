@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10067
+ *  @tag Simple, BFS, Implicit graph
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

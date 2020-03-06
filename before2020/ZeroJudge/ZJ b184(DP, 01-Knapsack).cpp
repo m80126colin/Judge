@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id b184
+ *  @tag DP, 01 Knapsack
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

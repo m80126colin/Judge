@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a010
+ *  @tag Simple, Prime factorization, String manipulation
+ */
 #include <iostream>
 using namespace std;
 

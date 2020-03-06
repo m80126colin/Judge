@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10780
+ *  @tag Prime, Factorization
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

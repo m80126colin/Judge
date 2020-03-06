@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 408
+ *  @tag Easy, Gcd, Number theory
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

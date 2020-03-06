@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10065
+ *  @tag Convex hull, Computational geometry
+ */
 #include <stdio.h>
 #include <string.h>
 #include <math.h>

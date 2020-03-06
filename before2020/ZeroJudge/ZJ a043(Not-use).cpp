@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a043
+ *  @tag Not use
+ */
 #include <iostream>
 using namespace std;
 

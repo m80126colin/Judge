@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 1660
+ *  @tag Easy, Loop, String
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

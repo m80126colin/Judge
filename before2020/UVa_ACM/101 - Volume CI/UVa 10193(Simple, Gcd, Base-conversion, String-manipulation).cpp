@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10193
+ *  @tag Simple, Gcd, Base conversion, String manipulation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

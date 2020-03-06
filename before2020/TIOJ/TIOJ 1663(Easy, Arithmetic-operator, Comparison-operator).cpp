@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1663
+ *  @tag Easy, Arithmetic operator, Comparison operator
+ */
 #include <iostream>
 #include <stdio.h>
 using namespace std;

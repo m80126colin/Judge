@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11314
+ *  @tag Easy, Math
+ */
 #include <iostream>
 #include <math.h>
 #include <iomanip>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 608
+ *  @tag Simple, Simulation, Fake coin
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>

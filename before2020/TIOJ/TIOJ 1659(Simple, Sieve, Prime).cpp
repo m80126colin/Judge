@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1659
+ *  @tag Simple, Sieve, Prime
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

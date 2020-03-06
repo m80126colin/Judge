@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10080
+ *  @tag Max cardinality bipartite matching
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

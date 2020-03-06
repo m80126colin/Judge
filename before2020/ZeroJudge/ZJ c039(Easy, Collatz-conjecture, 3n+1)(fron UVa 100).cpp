@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id c039
+ *  @tag Easy, Collatz conjecture, 3n+1
+ */
 #include <iostream>
 using namespace std;
 

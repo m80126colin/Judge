@@ -1,3 +1,8 @@
+/**
+ *  @judge NTHU
+ *  @id 9050
+ *  @tag Math, Matrix
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

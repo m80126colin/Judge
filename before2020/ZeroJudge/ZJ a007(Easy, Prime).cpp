@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a007
+ *  @tag Easy, Prime
+ */
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -8,7 +13,7 @@ int main() {
 		for (t=sqrt(n+0.001);t>1;t--) {
 			if (n%t==0) break;
 		}
-		if (t==1) cout<<"½è¼Æ"<<endl;
-		else cout<<"«D½è¼Æ"<<endl;
+		if (t==1) cout<<"ï¿½ï¿½ï¿½"<<endl;
+		else cout<<"ï¿½Dï¿½ï¿½ï¿½"<<endl;
 	}
 }

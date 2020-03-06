@@ -1,3 +1,8 @@
+/**
+ *  @judge NTHU
+ *  @id 9053
+ *  @tag Prime, BIT
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 21914
+ *  @tag Simple, String manipulation
+ */
 #include <stdio.h>
 #include <string.h>
 int main() {

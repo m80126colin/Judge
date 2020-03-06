@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10319
+ *  @tag Hard, 2 SAT, SCC, Tarjan
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

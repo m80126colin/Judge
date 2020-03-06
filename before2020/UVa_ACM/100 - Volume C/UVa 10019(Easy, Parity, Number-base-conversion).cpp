@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10019
+ *  @tag Easy, Parity, Number base conversion
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

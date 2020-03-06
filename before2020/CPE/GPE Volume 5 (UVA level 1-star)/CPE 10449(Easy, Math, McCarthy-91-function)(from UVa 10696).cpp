@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10449
+ *  @tag Easy, Math, McCarthy 91 function
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

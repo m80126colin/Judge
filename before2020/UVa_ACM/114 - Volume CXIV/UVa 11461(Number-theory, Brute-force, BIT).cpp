@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11461
+ *  @tag Number theory, Brute force, BIT
+ */
 #include <stdio.h>
 #include <iostream>
 #define M 100010

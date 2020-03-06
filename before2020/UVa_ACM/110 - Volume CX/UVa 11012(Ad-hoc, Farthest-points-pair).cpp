@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11012
+ *  @tag Ad hoc, Farthest points pair
+ */
 #include <stdio.h>
 #include <iostream>
 #define N 100010

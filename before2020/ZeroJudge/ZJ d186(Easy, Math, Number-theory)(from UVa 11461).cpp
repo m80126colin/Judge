@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d186
+ *  @tag Easy, Math, Number theory
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

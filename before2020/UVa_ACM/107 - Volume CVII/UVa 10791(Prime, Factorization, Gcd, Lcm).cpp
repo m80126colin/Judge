@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10791
+ *  @tag Prime, Factorization, Gcd, Lcm
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10443
+ *  @tag Easy, String manipulation, Number base conversion
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

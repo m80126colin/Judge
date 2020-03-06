@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d263
+ *  @tag Simple, DFS
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

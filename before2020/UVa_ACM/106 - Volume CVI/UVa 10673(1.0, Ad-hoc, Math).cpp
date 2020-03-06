@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10673
+ *  @tag 1.0, Ad hoc, Math
+ */
 #include <stdio.h>
 int main() {
 	int t;

@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 1658
+ *  @tag Simple, Prime
+ */
 #include <stdio.h>
 #include <string.h>
 #include <algorithm>

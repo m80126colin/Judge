@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 0359
+ *  @tag 3.0, S t flow
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

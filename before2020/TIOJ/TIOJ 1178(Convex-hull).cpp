@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1178
+ *  @tag Convex hull
+ */
 #include <iostream>
 #include <algorithm>
 #include <stdio.h>

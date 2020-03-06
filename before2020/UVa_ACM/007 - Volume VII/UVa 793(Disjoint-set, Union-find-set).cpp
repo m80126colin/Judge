@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 793
+ *  @tag Disjoint set, Union find set
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

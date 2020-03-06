@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1662
+ *  @tag Easy, String manipulation, I O
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

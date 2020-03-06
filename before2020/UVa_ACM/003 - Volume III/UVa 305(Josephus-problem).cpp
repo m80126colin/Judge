@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 305
+ *  @tag Josephus problem
+ */
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 340
+ *  @tag Simple, Game, Simulation
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

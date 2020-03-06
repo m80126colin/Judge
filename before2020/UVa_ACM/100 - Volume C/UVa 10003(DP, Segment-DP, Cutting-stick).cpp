@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10003
+ *  @tag DP, Segment DP, Cutting stick
+ */
 #include <cstdio>
 #include <iostream>
 #include <cstdlib>

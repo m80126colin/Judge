@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a468
+ *  @tag Simple, Ad hoc, Date problem
+ */
 #include <stdio.h>
 #include <string>
 #include <iostream>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 12149
+ *  @tag 1.0, Math, Summation
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

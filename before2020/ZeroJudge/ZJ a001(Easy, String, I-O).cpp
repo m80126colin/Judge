@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a001
+ *  @tag Easy, String, I O
+ */
 #include <iostream>
 #include <string>
 using namespace std;

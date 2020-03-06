@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10327
+ *  @tag Easy, Ad hoc, Inversion pair
+ */
 #include <iostream>
 using namespace std;
 

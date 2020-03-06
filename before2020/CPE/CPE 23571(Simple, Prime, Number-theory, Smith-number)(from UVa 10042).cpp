@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 23571
+ *  @tag Simple, Prime, Number theory, Smith number
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

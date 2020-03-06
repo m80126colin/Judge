@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 993
+ *  @tag 1.5, Greedy
+ */
 #include <cstdio>
 #include <iostream>
 using namespace std;

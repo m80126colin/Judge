@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10405
+ *  @tag 2.5, DP, LCS, fast IO
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

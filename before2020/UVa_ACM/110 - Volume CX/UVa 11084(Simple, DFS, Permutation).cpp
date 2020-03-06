@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11084
+ *  @tag Simple, DFS, Permutation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

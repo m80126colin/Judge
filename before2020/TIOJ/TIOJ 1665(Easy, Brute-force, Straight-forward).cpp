@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1665
+ *  @tag Easy, Brute force, Straight forward
+ */
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a002
+ *  @tag Easy, Arithmetic operator
+ */
 #include <iostream>
 using namespace std;
 

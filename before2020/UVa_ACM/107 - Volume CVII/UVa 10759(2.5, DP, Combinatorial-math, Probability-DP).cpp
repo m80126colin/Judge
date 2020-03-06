@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10759
+ *  @tag 2.5, DP, Combinatorial math, Probability DP
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

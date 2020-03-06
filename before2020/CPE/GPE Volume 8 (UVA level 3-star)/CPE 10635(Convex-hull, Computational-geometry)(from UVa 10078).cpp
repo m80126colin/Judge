@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10635
+ *  @tag Convex hull, Computational geometry
+ */
 #include <iostream>
 using namespace std;
 

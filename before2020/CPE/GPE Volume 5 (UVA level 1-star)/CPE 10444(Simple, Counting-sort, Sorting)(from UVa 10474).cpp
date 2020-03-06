@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10444
+ *  @tag Simple, Counting sort, Sorting
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

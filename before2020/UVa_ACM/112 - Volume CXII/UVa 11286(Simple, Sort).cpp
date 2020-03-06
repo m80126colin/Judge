@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11286
+ *  @tag Simple, Sort
+ */
 #include <stdio.h>
 #include <string.h>
 #include <algorithm>

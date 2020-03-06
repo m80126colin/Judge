@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 494
+ *  @tag 1.0, Ad hoc, Count word
+ */
 #include <stdio.h>
 #include <string>
 #include <ctype.h>

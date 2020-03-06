@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10506
+ *  @tag Simple, BFS, Coloring, Adjacency list
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

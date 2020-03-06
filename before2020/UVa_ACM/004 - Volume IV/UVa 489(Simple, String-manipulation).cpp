@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 489
+ *  @tag Simple, String manipulation
+ */
 #include <stdio.h>
 #include <iostream>
 #include <ctype.h>

@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 0006
+ *  @tag 3.0, DP, 3 Longest common subsequence, 3 LCS
+ */
 #include <cstdio>
 #include <iostream>
 #include <cstring>

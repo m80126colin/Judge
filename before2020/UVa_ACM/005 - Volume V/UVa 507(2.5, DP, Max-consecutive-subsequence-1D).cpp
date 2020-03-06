@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 507
+ *  @tag 2.5, DP, Max consecutive subsequence 1D
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

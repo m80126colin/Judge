@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d389
+ *  @tag Simple, DP
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

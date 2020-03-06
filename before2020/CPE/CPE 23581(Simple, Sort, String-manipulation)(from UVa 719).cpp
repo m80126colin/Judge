@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 23581
+ *  @tag Simple, Sort, String manipulation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

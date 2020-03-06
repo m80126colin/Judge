@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 299
+ *  @tag 1.0, Ad hoc, Inversion pair
+ */
 #include <iostream>
 #include <stdio.h>
 #define M 170

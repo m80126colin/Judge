@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1290
+ *  @tag Shortest path, SPSP
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

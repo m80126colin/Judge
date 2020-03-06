@@ -1,3 +1,8 @@
+/**
+ *  @judge HDU
+ *  @id 1693
+ *  @tag Hard, Plug in DP
+ */
 #include <stdio.h>
 #include <string.h>
 

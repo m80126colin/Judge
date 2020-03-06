@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10090
+ *  @tag Simple, Gcd, Extend gcd, Math
+ */
 #include <stdio.h>
 #include <iostream>
 #include <math.h>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10494
+ *  @tag Simple, Big number
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

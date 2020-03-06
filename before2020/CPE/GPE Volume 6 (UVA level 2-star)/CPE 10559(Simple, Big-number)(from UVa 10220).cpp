@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10559
+ *  @tag Simple, Big number
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

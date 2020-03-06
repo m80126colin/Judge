@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10368
+ *  @tag Gcd, Game theory
+ */
 #include <stdio.h>
 
 int gcd(int a, int b)

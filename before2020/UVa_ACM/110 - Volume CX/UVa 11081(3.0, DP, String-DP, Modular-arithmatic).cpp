@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11081
+ *  @tag 3.0, DP, String DP, Modular arithmatic
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

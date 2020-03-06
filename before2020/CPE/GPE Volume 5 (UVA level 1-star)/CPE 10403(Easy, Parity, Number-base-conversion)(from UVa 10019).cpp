@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10403
+ *  @tag Easy, Parity, Number base conversion
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

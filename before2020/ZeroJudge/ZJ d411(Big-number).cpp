@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d411
+ *  @tag Big number
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>
@@ -261,7 +266,7 @@ int main()
 	while (cin >> s >> p)
 	{
 		a = s.c_str();
-		if (a % pow(bigint(2), p) == 0) cout << "YA!!²×©óºâ¥X" << s << "¥i³Q2ªº" << p << "¦¸¾ã°£¤F!!" << endl;
-		else cout << "¥i´c!!ºâ¤F³o»ò¤[" << s << "³ºµMµLªk³Q2ªº" << p << "¦¸¾ã°£" << endl;
+		if (a % pow(bigint(2), p) == 0) cout << "YA!!ï¿½×©ï¿½ï¿½X" << s << "ï¿½iï¿½Q2ï¿½ï¿½" << p << "ï¿½ï¿½ï¿½ã°£ï¿½F!!" << endl;
+		else cout << "ï¿½iï¿½c!!ï¿½ï¿½Fï¿½oï¿½ï¿½[" << s << "ï¿½ï¿½ï¿½Mï¿½Lï¿½kï¿½Q2ï¿½ï¿½" << p << "ï¿½ï¿½ï¿½ã°£" << endl;
 	}
 }

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10583
+ *  @tag Simple, Disjoint set
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

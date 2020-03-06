@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d224
+ *  @tag Simple, DP, Coin changing
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d954
+ *  @tag Simple, DP, Coin changing
+ */
 #include <stdio.h>
 #include <string.h>
 #include <algorithm>

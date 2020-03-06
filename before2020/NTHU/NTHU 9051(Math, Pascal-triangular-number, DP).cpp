@@ -1,3 +1,8 @@
+/**
+ *  @judge NTHU
+ *  @id 9051
+ *  @tag Math, Pascal triangular number, DP
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

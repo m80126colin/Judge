@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 914
+ *  @tag 2.0, Number theory, Prime sieve, Count frequency
+ */
 #include <cstdio>
 #include <iostream>
 using namespace std;

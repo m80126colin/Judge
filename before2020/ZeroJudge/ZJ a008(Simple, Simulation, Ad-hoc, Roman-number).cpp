@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a008
+ *  @tag Simple, Simulation, Ad hoc, Roman number
+ */
 #include <iostream>
 #include <string>
 using namespace std;
@@ -11,32 +16,32 @@ int main() {
 		t=n.size();
 		for (i=0;i<n.size();i++) {
 			if ((n[i]-48)&&zero) {
-				cout<<"¹s";
+				cout<<"ï¿½s";
 				zero=0;
 			}
 			if (n[i]=='1'&&(n.size()%4!=2||t%4!=2||one)) {
-				cout<<"³ü";
+				cout<<"ï¿½ï¿½";
 				one=1;
 			}
-			else if (n[i]=='2') cout<<"¶L";
-			else if (n[i]=='3') cout<<"°Ñ";
-			else if (n[i]=='4') cout<<"¸v";
-			else if (n[i]=='5') cout<<"¥î";
-			else if (n[i]=='6') cout<<"³°";
-			else if (n[i]=='7') cout<<"¬m";
-			else if (n[i]=='8') cout<<"®Ã";
-			else if (n[i]=='9') cout<<"¨h";
+			else if (n[i]=='2') cout<<"ï¿½L";
+			else if (n[i]=='3') cout<<"ï¿½ï¿½";
+			else if (n[i]=='4') cout<<"ï¿½v";
+			else if (n[i]=='5') cout<<"ï¿½ï¿½";
+			else if (n[i]=='6') cout<<"ï¿½ï¿½";
+			else if (n[i]=='7') cout<<"ï¿½m";
+			else if (n[i]=='8') cout<<"ï¿½ï¿½";
+			else if (n[i]=='9') cout<<"ï¿½h";
 			if ((t>4&&t<9)&&(n[i]>'0'&&n[i]<='9')) thou=1;
 			if (n[i]=='0') zero=1;
 			if (t%4==1) {
-				if (t/4==1&&thou) cout<<"¸U";
-				else if (t/4==2) cout<<"»õ";
+				if (t/4==1&&thou) cout<<"ï¿½U";
+				else if (t/4==2) cout<<"ï¿½ï¿½";
 				zero=0;
 				one=1;
 			}
-			else if (n[i]!='0'&&t%4==2) cout<<"¬B";
-			else if (n[i]!='0'&&t%4==3) cout<<"¨Õ";
-			else if (n[i]!='0') cout<<"¥a";
+			else if (n[i]!='0'&&t%4==2) cout<<"ï¿½B";
+			else if (n[i]!='0'&&t%4==3) cout<<"ï¿½ï¿½";
+			else if (n[i]!='0') cout<<"ï¿½a";
 			t--;
 		}
 		cout<<endl;

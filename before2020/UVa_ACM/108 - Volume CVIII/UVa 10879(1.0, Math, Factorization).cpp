@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10879
+ *  @tag 1.0, Math, Factorization
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

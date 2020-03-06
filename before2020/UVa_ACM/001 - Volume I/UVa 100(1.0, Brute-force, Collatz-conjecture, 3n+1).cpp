@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 100
+ *  @tag 1.0, Brute force, Collatz conjecture, 3n+1
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

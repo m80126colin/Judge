@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10174
+ *  @tag Simple, Math, Number theory
+ */
 #include <iostream>
 #include <map>
 #include <stdio.h>

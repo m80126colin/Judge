@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d809
+ *  @tag Easy, Math, Brute force
+ */
 #include <stdio.h>
 #include <iostream>
 #define N 210

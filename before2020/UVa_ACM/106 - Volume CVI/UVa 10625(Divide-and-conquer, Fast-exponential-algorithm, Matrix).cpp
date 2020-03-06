@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10625
+ *  @tag Divide and conquer, Fast exponential algorithm, Matrix
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

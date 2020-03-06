@@ -1,6 +1,11 @@
+/**
+ *  @judge UVa
+ *  @id 670
+ *  @tag Graph theory, Max cardinality bipartite matching
+ */
 /*
 Maximum cardinality bipartite matching
-¤G¤À¹Ï³Ì¤j¤Ç°t O(V^3)
+ï¿½Gï¿½ï¿½ï¿½Ï³Ì¤jï¿½Ç°t O(V^3)
 */
 #include <stdio.h>
 #include <string.h>
@@ -9,23 +14,23 @@ Maximum cardinality bipartite matching
 using namespace std;
 
 #define MAX 110
-int n, m; /* n, m ¬°¨â¶°¦XªºÂI¼Æ */
-int N[MAX], M[MAX]; /* N, M °O¿ý¤¬¬Û¤Ç°tªºÂI½s¸¹ */
-bool r[MAX][MAX], visited[MAX]; /* R «Ø¤G¤À¹Ï¡Bvisited °O¿ý¨C¦¸¦³µL¨«³X */
+int n, m; /* n, m ï¿½ï¿½ï¿½â¶°ï¿½Xï¿½ï¿½ï¿½Iï¿½ï¿½ */
+int N[MAX], M[MAX]; /* N, M ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½Û¤Ç°tï¿½ï¿½ï¿½Iï¿½sï¿½ï¿½ */
+bool r[MAX][MAX], visited[MAX]; /* R ï¿½Ø¤Gï¿½ï¿½ï¿½Ï¡Bvisited ï¿½Oï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½X */
 
 int DFS(int i)
 {
 	int j;
 	for (j = 0; j < m; j++)
 	{
-		if (!visited[j] && r[i][j]) /* ¦³Ãä */
+		if (!visited[j] && r[i][j]) /* ï¿½ï¿½ï¿½ï¿½ */
 		{
 			visited[j] = 1;
-			if (M[j] == -1 || DFS(M[j])) /* ÀË¬d¬O§_¥¼¤Ç°t©Î¬O¥i´«¤Ç°t */
+			if (M[j] == -1 || DFS(M[j])) /* ï¿½Ë¬dï¿½Oï¿½_ï¿½ï¿½ï¿½Ç°tï¿½Î¬Oï¿½iï¿½ï¿½ï¿½Ç°t */
 			{
 				N[i] = j;
 				M[j] = i;
-				return 1; /* ¼W¥[¤Ç°t¼Æ */
+				return 1; /* ï¿½Wï¿½[ï¿½Ç°tï¿½ï¿½ */
 			}
 		}
 	}
@@ -36,7 +41,7 @@ int match()
 {
 	int i, sum = 0;
 	memset(N, -1, sizeof(N));
-	memset(M, -1, sizeof(M)); /* Âk¹s */
+	memset(M, -1, sizeof(M)); /* ï¿½kï¿½s */
 	for (i = 0; i < n; i++)
 	{
 		memset(visited, 0, sizeof(visited));

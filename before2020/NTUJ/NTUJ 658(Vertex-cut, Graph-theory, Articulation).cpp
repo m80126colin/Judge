@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 658
+ *  @tag Vertex cut, Graph theory, Articulation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

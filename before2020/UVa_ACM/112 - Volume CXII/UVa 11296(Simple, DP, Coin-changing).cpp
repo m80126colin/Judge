@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11296
+ *  @tag Simple, DP, Coin changing
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

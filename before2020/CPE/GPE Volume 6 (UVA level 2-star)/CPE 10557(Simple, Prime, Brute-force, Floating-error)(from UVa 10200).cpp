@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10557
+ *  @tag Simple, Prime, Brute force, Floating error
+ */
 #include <stdio.h>
 #include <string.h>
 #include <math.h>

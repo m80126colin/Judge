@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10422
+ *  @tag Simple, Math
+ */
 #include <iostream>
 #include <math.h>
 #include <iomanip>

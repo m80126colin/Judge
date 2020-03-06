@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 253
+ *  @tag Simple, Brute force, Simulation
+ */
 #include <stdio.h>
 #include <iostream>
 #include <set>

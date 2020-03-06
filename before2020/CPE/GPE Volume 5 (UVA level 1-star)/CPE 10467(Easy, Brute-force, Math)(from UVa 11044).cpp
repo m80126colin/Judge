@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10467
+ *  @tag Easy, Brute force, Math
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 256
+ *  @tag 1.5, Number theory, Brute force
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

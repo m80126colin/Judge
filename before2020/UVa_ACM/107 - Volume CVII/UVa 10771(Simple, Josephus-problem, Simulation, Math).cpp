@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10771
+ *  @tag Simple, Josephus problem, Simulation, Math
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10440
+ *  @tag Easy, Float
+ */
 #include <iostream>
 #include <iomanip>
 using namespace std;

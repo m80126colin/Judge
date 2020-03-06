@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11342
+ *  @tag 1.0, Brute force
+ */
 #include <cstdio>
 #include <iostream>
 #include <cmath>

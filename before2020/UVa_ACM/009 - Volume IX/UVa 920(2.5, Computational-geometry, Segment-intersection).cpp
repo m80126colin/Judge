@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 920
+ *  @tag 2.5, Computational geometry, Segment intersection
+ */
 #include <cstdio>
 #include <cstring>
 #include <cmath>
