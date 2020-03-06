@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11876
- *  @tag 1.5, Ad hoc, Binary Search, STL Upper Bound
+ *  @tag 1.5, Ad-hoc, Binary Search, STL Upper Bound
  */
 #include <cstdio>
 #include <cmath>

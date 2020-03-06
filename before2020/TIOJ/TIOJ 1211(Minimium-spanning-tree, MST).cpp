@@ -1,7 +1,7 @@
 /**
  *  @judge TIOJ
  *  @id 1211
- *  @tag Minimium spanning tree, MST
+ *  @tag Minimum Spanning Tree
  */
 #include <stdio.h>
 #include <iostream>

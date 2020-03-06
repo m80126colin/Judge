@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 991
- *  @tag Simple, Recursive, Catalan number
+ *  @tag Simple, Recursion, Catalan number
  */
 #include <iostream>
 #include <stdio.h>

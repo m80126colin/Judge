@@ -1,7 +1,7 @@
 /**
  *  @judge TIOJ
  *  @id 1666
- *  @tag Easy, Nim, Game theory, Bitwise
+ *  @tag Easy, Nim, Game theory, Bitwise Operation
  */
 #include <stdio.h>
 int main()

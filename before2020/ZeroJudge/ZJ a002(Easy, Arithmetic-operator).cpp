@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id a002
- *  @tag Easy, Arithmetic operator
+ *  @tag Easy, Arithmetic Operation
  */
 #include <iostream>
 using namespace std;

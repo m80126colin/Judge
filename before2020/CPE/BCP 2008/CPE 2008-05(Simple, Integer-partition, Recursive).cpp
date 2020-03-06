@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 2008-05
- *  @tag Simple, Integer partition, Recursive
+ *  @tag Simple, Integer partition, Recursion
  */
 #include <stdio.h>
 #include <ctype.h>

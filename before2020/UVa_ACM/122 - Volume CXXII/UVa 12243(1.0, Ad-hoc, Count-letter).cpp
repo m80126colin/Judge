@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 12243
- *  @tag 1.0, Ad hoc, Count letter
+ *  @tag 1.0, Ad-hoc, Count letter
  */
 #include <stdio.h>
 #include <string.h>

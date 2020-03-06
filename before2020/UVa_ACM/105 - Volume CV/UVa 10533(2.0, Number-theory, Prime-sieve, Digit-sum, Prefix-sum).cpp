@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10533
- *  @tag 2.0, Number theory, Prime sieve, Digit sum, Prefix sum
+ *  @tag 2.0, Number Theory, Prime sieve, Digit sum, Prefix Sum
  */
 #include <cstdio>
 #include <cstring>

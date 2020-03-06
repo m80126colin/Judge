@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 496
- *  @tag Simple, Ad hoc, Map, Set
+ *  @tag Simple, Ad-hoc, Map, Set
  */
 #include <stdio.h>
 #include <iostream>

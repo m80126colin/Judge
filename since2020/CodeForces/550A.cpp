@@ -3,7 +3,7 @@
  * 	@id 550A
  * 	@name Two Substrings
  * 
- * 	@tag String manipulation
+ * 	@tag String Manipulation
  */
 #include <iostream>
 using namespace std;

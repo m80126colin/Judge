@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10699
- *  @tag 1.5, Number theory, Prime sieve, Factorization
+ *  @tag 1.5, Number Theory, Prime sieve, Factorization
  */
 #include <cstdio>
 #include <cmath>

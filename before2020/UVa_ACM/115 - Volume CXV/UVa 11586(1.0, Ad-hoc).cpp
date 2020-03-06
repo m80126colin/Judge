@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11586
- *  @tag 1.0, Ad hoc
+ *  @tag 1.0, Ad-hoc
  */
 #include <cstdio>
 #include <cstring>

@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10036
- *  @tag 2.5, DP, Modular arithmatic, Subset sum
+ *  @tag 2.5, DP, Modular arithmatic, Subset Sum
  */
 #include <stdio.h>
 #include <string.h>

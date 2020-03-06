@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 10421
- *  @tag Easy, String, Gcd, Number theory
+ *  @tag Easy, String, Gcd, Number Theory
  */
 #include <stdio.h>
 #include <ctype.h>

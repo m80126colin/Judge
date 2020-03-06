@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 10403
- *  @tag Easy, Parity, Number base conversion
+ *  @tag Easy, Parity, Number Base Conversion
  */
 #include <stdio.h>
 #include <iostream>

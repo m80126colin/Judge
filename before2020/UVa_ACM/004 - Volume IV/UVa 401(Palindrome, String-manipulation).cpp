@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 401
- *  @tag Palindrome, String manipulation
+ *  @tag Palindrome, String Manipulation
  */
 #include <stdio.h>
 #include <ctype.h>

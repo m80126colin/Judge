@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11525
- *  @tag 1.5, Ad hoc, STL vector, Permutation
+ *  @tag 1.5, Ad-hoc, STL vector, Permutation
  */
 #include <iostream>
 #include <cstring>

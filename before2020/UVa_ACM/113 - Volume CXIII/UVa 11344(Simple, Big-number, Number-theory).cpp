@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11344
- *  @tag Simple, Big number, Number theory
+ *  @tag Simple, Big number, Number Theory
  */
 #include <stdio.h>
 #include <iostream>

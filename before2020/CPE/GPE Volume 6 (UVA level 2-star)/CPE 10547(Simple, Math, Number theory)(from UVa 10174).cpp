@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 10547
- *  @tag Simple, Math, Number theory
+ *  @tag Simple, Math, Number Theory
  */
 #include <iostream>
 #include <map>

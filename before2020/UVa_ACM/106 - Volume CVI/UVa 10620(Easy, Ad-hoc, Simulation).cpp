@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10620
- *  @tag Easy, Ad hoc, Simulation
+ *  @tag Easy, Ad-hoc, Simulation
  */
 #include <stdio.h>
 #include <iostream>

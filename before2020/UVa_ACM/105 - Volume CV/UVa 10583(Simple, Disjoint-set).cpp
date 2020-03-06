@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10583
- *  @tag Simple, Disjoint set
+ *  @tag Simple, Disjoint Set
  */
 #include <stdio.h>
 #include <iostream>

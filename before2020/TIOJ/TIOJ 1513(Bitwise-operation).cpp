@@ -1,7 +1,7 @@
 /**
  *  @judge TIOJ
  *  @id 1513
- *  @tag Bitwise operation
+ *  @tag Bitwise Operation
  */
 #include <stdio.h>
 #include <ctype.h>

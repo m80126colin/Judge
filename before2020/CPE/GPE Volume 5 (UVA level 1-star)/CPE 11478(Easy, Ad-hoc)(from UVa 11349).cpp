@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 11478
- *  @tag Easy, Ad hoc
+ *  @tag Easy, Ad-hoc
  */
 #include <stdio.h>
 #include <iostream>

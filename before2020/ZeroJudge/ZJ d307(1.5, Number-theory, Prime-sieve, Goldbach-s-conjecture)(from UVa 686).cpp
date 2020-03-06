@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d307
- *  @tag 1.5, Number theory, Prime sieve, Goldbach s conjecture
+ *  @tag 1.5, Number Theory, Prime sieve, Goldbach s conjecture
  */
 #include <cstdio>
 #include <cstring>

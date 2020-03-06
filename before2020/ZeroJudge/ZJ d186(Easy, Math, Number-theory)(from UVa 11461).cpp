@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d186
- *  @tag Easy, Math, Number theory
+ *  @tag Easy, Math, Number Theory
  */
 #include <stdio.h>
 #include <math.h>

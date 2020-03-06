@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11005
- *  @tag 1.5, Base conversion, Ad hoc, Min max
+ *  @tag 1.5, Number Base Conversion, Ad-hoc, Min max
  */
 #include <cstdio>
 #include <cstring>

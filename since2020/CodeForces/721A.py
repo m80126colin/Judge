@@ -3,7 +3,7 @@
 	@id 721A
 	@name One-dimensional Japanese Crossword
 
-	@tag String manipulation
+	@tag String Manipulation
 '''
 import re
 

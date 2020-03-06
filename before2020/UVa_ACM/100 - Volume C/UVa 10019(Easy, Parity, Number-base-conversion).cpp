@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10019
- *  @tag Easy, Parity, Number base conversion
+ *  @tag Easy, Parity, Number Base Conversion
  */
 #include <stdio.h>
 #include <iostream>

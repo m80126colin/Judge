@@ -1,7 +1,7 @@
 /**
  *  @judge NTUJ
  *  @id 1666
- *  @tag Disjoint set, Graph theory, Euler tour
+ *  @tag Disjoint Set, Graph theory, Euler tour
  */
 #include <stdio.h>
 #include <string.h>

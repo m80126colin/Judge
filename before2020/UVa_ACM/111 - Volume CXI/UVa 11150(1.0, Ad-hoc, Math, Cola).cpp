@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11150
- *  @tag 1.0, Ad hoc, Math, Cola
+ *  @tag 1.0, Ad-hoc, Math, Cola
  */
 #include <stdio.h>
 #include <iostream>

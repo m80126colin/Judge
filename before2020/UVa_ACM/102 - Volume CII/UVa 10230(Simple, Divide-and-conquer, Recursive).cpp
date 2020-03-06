@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10230
- *  @tag Simple, Divide and conquer, Recursive
+ *  @tag Simple, Divide and conquer, Recursion
  */
 #include <stdio.h>
 

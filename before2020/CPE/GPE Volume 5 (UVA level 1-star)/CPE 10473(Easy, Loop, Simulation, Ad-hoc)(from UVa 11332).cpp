@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 10473
- *  @tag Easy, Loop, Simulation, Ad hoc
+ *  @tag Easy, Loop, Simulation, Ad-hoc
  */
 #include <stdio.h>
 #include <iostream>

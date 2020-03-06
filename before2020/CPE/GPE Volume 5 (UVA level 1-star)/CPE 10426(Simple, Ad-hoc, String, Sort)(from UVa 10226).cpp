@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 10426
- *  @tag Simple, Ad hoc, String, Sort
+ *  @tag Simple, Ad-hoc, String, Sort
  */
 #include <stdio.h>
 #include <string>

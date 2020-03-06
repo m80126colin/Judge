@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d123
- *  @tag 1.0, Ad hoc
+ *  @tag 1.0, Ad-hoc
  */
 #include <stdio.h>
 #include <string.h>

@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id a008
- *  @tag Simple, Simulation, Ad hoc, Roman number
+ *  @tag Simple, Simulation, Ad-hoc, Roman number
  */
 #include <iostream>
 #include <string>

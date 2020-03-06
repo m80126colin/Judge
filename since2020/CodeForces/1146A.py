@@ -3,7 +3,7 @@
 	@id 1146A
 	@name Love "A"
 
-	@tag String manipulation
+	@tag String Manipulation
 '''
 s = input()
 ans = len(s) - s.count('a') * 2

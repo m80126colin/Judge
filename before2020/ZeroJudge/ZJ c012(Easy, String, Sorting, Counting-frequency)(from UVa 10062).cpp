@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id c012
- *  @tag Easy, String, Sorting, Counting frequency
+ *  @tag Easy, String, Sortings, Counting frequency
  */
 #include <iostream>
 #include <string>

@@ -3,7 +3,7 @@
 	@id 277A
 	@name Learning Languages
 
-	@tag Disjoint forest
+	@tag Disjoint Set
 '''
 from sys import stdin
 

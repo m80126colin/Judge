@@ -3,7 +3,7 @@
 	@id 1145A
 	@name Thanos Sort
 
-	@tag recursion
+	@tag Recursion
 '''
 def checkSortedOrThanos(ms):
 	if len(ms) == 1:

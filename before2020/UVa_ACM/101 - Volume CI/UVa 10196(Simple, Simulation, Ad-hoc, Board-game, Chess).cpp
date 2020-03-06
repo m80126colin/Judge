@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10196
- *  @tag Simple, Simulation, Ad hoc, Board game, Chess
+ *  @tag Simple, Simulation, Ad-hoc, Board game, Chess
  */
 #include <stdio.h>
 #include <string.h>

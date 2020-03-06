@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 408
- *  @tag Easy, Gcd, Number theory
+ *  @tag Easy, Gcd, Number Theory
  */
 #include <stdio.h>
 #include <iostream>

@@ -3,7 +3,7 @@
 	@id 1095A
 	@name Repeating Cipher
 
-	@tag String manipulation
+	@tag String Manipulation
 '''
 from functools import reduce
 

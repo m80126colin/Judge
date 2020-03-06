@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id a011
- *  @tag Simple, String manipulation
+ *  @tag Simple, String Manipulation
  */
 #include <iostream>
 #include <string>

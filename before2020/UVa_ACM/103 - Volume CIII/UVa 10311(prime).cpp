@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10311
- *  @tag prime
+ *  @tag Prime
  */
 #include <stdio.h>
 #include <math.h>

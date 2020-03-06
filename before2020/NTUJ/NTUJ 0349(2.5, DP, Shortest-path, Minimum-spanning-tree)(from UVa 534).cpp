@@ -1,7 +1,7 @@
 /**
  *  @judge NTUJ
  *  @id 0349
- *  @tag 2.5, DP, Shortest path, Minimum spanning tree
+ *  @tag 2.5, DP, Shortest path, Minimum Spanning Tree
  */
 #include <cstdio>
 #include <cstring>

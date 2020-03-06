@@ -1,7 +1,7 @@
 /**
  *  @judge NTUJ
  *  @id 658
- *  @tag Vertex cut, Graph theory, Articulation
+ *  @tag Vertex cut, Graph theory, Articulation Point
  */
 #include <stdio.h>
 #include <string.h>

@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 11076
- *  @tag Simple, Ad hoc, Gcd
+ *  @tag Simple, Ad-hoc, Gcd
  */
 #include <stdio.h>
 #include <ctype.h>

@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 400
- *  @tag Simple, String manipulation
+ *  @tag Simple, String Manipulation
  */
 #include <stdio.h>
 #include <string>

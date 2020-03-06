@@ -3,7 +3,7 @@
 	@id 711A
 	@name Bus to Udayland
 
-	@tag Simpulation, String manipulation
+	@tag Simulation, String Manipulation
 '''
 from sys import stdin
 
