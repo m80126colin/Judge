@@ -8,11 +8,13 @@
     "poststart": "yarn test",
     "test": "./test",
     "prebuild": "rm -rf dist/",
-    "build": "node meta/generator.js"
+    "build": "node meta/generator.js",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "glob": "^7.1.6",
     "lodash": "^4.17.15"
   }

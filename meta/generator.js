@@ -3,6 +3,7 @@ const path  = require('path')
 const util  = require('util')
 const globO = require('glob')
 const fs    = require('fs')
+const ghpages = require('gh-pages')
 
 const glob = util.promisify(globO)
 
@@ -91,19 +92,3 @@ const execute = async () => {
   await fs.promises.writeFile(`${root}/dist/data.json`, JSON.stringify(result))
 }
 execute()
-
-fs.promises.wr
-
-const run = async () => {
-  const res = await parser(`${__dirname}/../1316A.cpp`)
-  console.log(res)
-}
-// run()
-
-/*
-fs.readFile(`${__dirname}/../1316A.cpp`, 'utf-8', (err, data) => {
-    console.log('data: ', data)
-    const res = parser(data)
-    console.log('result: ', ...res)
-})
-*/
