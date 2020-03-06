@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d963
+ *  @tag 2.5, DP, LCS, Palindrome
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

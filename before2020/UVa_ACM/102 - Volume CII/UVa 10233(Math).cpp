@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10233
+ *  @tag Math
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

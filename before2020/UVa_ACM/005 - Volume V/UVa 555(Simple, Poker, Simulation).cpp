@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 555
+ *  @tag Simple, Poker, Simulation
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

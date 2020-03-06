@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 587
+ *  @tag Simple, String manupulation, Simulation
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string.h>

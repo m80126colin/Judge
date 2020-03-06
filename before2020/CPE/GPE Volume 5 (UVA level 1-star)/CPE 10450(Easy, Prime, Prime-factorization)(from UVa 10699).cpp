@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10450
+ *  @tag Easy, Prime, Prime factorization
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

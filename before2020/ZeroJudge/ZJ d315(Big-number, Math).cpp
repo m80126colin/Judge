@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d315
+ *  @tag Big number, Math
+ */
 #include <stdio.h>
 #include <math.h>
 #include <string.h>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10099
+ *  @tag SPFA
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

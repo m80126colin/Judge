@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a291
+ *  @tag Easy, Brute force
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

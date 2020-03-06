@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10469
+ *  @tag 1.0, Bitwise operation, Xor
+ */
 #include <iostream>
 #include <stdio.h>
 using namespace std;

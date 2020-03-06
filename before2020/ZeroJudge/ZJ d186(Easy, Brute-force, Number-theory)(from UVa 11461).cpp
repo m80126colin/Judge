@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d186
+ *  @tag Easy, Brute force, Number theory
+ */
 #include <iostream>
 using namespace std;
 

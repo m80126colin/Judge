@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10431
+ *  @tag Easy, Ad hoc
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

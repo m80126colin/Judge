@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1513
+ *  @tag Bitwise operation
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <iostream>

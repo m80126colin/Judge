@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10460
+ *  @tag Easy, String, Number thoeory
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

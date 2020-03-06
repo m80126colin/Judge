@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 895
+ *  @tag 1.5, Ad hoc, Word frequency, Dictionary
+ */
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>

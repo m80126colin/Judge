@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d143
+ *  @tag Easy, Comparison operator
+ */
 #include <iostream>
 using namespace std;
 

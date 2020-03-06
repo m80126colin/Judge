@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 275
+ *  @tag Simple, Cycle finding, Floyd cycle finding algorithm
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

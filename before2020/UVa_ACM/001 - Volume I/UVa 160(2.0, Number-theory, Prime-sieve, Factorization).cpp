@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 160
+ *  @tag 2.0, Number theory, Prime sieve, Factorization
+ */
 #include <cstdio>
 #include <iostream>
 using namespace std;

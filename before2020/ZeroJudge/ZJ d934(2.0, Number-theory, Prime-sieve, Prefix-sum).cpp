@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d934
+ *  @tag 2.0, Number theory, Prime sieve, Prefix sum
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

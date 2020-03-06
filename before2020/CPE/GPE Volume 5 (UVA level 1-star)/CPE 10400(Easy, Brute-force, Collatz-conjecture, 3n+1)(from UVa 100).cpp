@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10400
+ *  @tag Easy, Brute force, Collatz conjecture, 3n+1
+ */
 #include <iostream>
 using namespace std;
 

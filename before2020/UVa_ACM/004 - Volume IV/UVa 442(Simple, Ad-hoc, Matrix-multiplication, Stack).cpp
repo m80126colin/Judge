@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 442
+ *  @tag Simple, Ad hoc, Matrix multiplication, Stack
+ */
 #include <stdio.h>
 #include <string>
 #include <iostream>

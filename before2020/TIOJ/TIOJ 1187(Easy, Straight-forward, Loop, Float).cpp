@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1187
+ *  @tag Easy, Straight forward, Loop, Float
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

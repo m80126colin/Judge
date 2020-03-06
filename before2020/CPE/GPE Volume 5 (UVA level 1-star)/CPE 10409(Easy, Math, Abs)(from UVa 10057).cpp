@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10409
+ *  @tag Easy, Math, Abs
+ */
 #include <stdio.h>
 #include <stdlib.h>
 int cmp(const void* a,const void* b) {

@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d923
+ *  @tag Simple, Bitwise operation, Recursive
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

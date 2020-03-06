@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10548
+ *  @tag Big number, Binary operation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

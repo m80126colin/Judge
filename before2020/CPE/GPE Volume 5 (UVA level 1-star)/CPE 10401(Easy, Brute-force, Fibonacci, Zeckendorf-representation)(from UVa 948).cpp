@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10401
+ *  @tag Easy, Brute force, Fibonacci, Zeckendorf representation
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 11067
+ *  @tag Simple, Ad hoc, Cola
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

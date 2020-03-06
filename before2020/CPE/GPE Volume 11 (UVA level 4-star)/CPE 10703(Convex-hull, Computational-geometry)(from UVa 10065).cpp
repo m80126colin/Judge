@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10703
+ *  @tag Convex hull, Computational geometry
+ */
 #include <stdio.h>
 #include <string.h>
 #include <math.h>

@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1666
+ *  @tag Easy, Nim, Game theory, Bitwise
+ */
 #include <stdio.h>
 int main()
 {

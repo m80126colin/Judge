@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10235
+ *  @tag 1.5, Number theory, Prime sieve, Emirp
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

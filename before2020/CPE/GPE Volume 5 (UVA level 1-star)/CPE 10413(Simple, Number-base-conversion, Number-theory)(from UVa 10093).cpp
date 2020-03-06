@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10413
+ *  @tag Simple, Number base conversion, Number theory
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

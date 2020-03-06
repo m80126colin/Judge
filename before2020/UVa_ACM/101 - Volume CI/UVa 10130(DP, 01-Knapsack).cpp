@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10130
+ *  @tag DP, 01 Knapsack
+ */
 #include <iostream>
 #include <cstdio>
 using namespace std;

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10459
+ *  @tag Easy, Long long
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

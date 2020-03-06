@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1661
+ *  @tag Easy, Straight forward
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11504
+ *  @tag 2.5, Strongly connected component, SCC, Connectivity, Stack
+ */
 #include <cstdio>
 #include <cstring>
 #include <cstdlib>

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10442
+ *  @tag Easy, Bitwise operation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

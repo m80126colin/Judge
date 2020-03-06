@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 12455
+ *  @tag DP, 01 Knapsack
+ */
 #include <iostream>
 #include <cstdio>
 #include <cstring>

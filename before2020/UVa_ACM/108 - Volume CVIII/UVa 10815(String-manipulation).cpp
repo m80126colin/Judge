@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10815
+ *  @tag String manipulation
+ */
 #include <stdio.h>
 #include <iostream>
 #include <set>

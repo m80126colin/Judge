@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 414
+ *  @tag Easy, Ad hoc, Encoding
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

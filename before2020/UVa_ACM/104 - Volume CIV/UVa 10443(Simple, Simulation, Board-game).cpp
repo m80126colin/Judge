@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10443
+ *  @tag Simple, Simulation, Board game
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

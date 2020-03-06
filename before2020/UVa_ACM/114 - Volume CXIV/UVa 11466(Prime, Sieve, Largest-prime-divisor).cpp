@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11466
+ *  @tag Prime, Sieve, Largest prime divisor
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

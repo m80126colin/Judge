@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10311
+ *  @tag prime
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

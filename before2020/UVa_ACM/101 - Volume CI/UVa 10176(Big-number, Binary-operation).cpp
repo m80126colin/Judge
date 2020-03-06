@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10176
+ *  @tag Big number, Binary operation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

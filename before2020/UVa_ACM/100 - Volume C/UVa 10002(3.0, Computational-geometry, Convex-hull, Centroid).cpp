@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10002
+ *  @tag 3.0, Computational geometry, Convex hull, Centroid
+ */
 #include <cstdio>
 #include <cstring>
 #include <cmath>

@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id c009
+ *  @tag 1.5, Base conversion, Ad hoc
+ */
 #include <iostream>
 #include <cstdio>
 #include <cstring>

@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a017
+ *  @tag Stack, String manipulation, Parser
+ */
 #include <iostream>
 #include <sstream>
 #include <string>

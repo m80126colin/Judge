@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11482
+ *  @tag Simple, Ad hoc, String manipulation
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

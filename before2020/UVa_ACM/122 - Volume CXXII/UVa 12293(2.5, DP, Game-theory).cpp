@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 12293
+ *  @tag 2.5, DP, Game theory
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

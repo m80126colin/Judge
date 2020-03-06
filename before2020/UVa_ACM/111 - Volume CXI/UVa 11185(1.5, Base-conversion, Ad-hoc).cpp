@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11185
+ *  @tag 1.5, Base conversion, Ad hoc
+ */
 #include <cstdio>
 #include <iostream>
 #include <string>

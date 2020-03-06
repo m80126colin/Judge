@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 0660
+ *  @tag 2.5, Connectivity, Strong connected component
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11344
+ *  @tag Simple, Big number, Number theory
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 151
+ *  @tag Simple, Josephus problem
+ */
 #include <iostream>
 #define MAX 110
 using namespace std;

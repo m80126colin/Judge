@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10104
+ *  @tag Simple, Extend gcd, Math
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10549
+ *  @tag Easy, Math, Brute force
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

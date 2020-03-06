@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10404
+ *  @tag DP, Implicit graph
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

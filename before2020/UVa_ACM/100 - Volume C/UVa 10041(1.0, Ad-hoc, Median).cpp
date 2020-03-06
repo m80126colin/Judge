@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10041
+ *  @tag 1.0, Ad hoc, Median
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>

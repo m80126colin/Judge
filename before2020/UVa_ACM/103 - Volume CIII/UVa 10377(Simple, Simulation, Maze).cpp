@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10377
+ *  @tag Simple, Simulation, Maze
+ */
 #include <iostream>
 #include <string>
 using namespace std;

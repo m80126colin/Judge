@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a016
+ *  @tag Easy, Brute force, Backtracking, Recursion, Sudoku
+ */
 #include <iostream>
 using namespace std;
 

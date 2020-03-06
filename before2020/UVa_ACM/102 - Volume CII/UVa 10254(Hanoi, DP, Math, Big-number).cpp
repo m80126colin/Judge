@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10254
+ *  @tag Hanoi, DP, Math, Big number
+ */
 #include <iostream>
 #include <stdio.h>
 #include <ctype.h>

@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 1839
+ *  @tag 3.0, Computational geometry, Convex hull
+ */
 #include <iostream>
 #include <algorithm>
 #include <cstdio>

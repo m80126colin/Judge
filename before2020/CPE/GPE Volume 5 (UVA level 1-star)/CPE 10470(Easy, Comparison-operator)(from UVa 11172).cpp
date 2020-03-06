@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10470
+ *  @tag Easy, Comparison operator
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

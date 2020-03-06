@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11561
+ *  @tag 2.0, DFS, 2D map
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

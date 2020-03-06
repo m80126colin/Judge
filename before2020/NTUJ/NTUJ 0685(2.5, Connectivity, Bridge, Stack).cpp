@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 0685
+ *  @tag 2.5, Connectivity, Bridge, Stack
+ */
 #include <cstdio>
 #include <cstring>
 #include <vector>

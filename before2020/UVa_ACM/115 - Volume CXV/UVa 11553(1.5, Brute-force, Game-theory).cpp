@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11553
+ *  @tag 1.5, Brute force, Game theory
+ */
 #include <stdio.h>
 #include <iostream>
 #include <algorithm>

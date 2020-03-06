@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 474
+ *  @tag Easy, Math, Floating error
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

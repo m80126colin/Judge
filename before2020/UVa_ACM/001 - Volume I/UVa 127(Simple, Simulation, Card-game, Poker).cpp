@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 127
+ *  @tag Simple, Simulation, Card game, Poker
+ */
 #include <stdio.h>
 #include <iostream>
 #include <map>

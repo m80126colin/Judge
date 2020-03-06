@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10020
+ *  @tag Simple, Greedy
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string.h>

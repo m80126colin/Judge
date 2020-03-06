@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10696
+ *  @tag 1.0, Recursive, Ad hoc, F91
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

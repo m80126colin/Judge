@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 496
+ *  @tag Simple, Ad hoc, Map, Set
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

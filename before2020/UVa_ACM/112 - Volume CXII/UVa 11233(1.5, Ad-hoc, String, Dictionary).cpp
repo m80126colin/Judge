@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11233
+ *  @tag 1.5, Ad hoc, String, Dictionary
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

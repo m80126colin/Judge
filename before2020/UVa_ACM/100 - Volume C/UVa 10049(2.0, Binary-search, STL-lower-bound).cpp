@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10049
+ *  @tag 2.0, Binary search, STL lower bound
+ */
 #include <stdio.h>
 #include <iostream>
 #include <algorithm>

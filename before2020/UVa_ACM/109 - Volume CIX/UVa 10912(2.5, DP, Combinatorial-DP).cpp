@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10912
+ *  @tag 2.5, DP, Combinatorial DP
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

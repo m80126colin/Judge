@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10428
+ *  @tag Easy, Prime, Emirp
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

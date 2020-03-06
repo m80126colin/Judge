@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10006
+ *  @tag Simple, Divide and conquer, Fermat test
+ */
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>

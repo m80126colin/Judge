@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10420
+ *  @tag 1.0, String, STL Map
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

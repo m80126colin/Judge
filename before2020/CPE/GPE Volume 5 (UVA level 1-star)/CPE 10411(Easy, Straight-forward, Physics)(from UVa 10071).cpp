@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10411
+ *  @tag Easy, Straight forward, Physics
+ */
 #include <stdio.h>
 #include <string.h>
 #include <math.h>

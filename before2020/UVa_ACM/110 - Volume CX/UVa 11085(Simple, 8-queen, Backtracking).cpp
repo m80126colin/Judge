@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11085
+ *  @tag Simple, 8 queen, Backtracking
+ */
 #include <stdio.h>
 #include <iostream>
 #include <vector>

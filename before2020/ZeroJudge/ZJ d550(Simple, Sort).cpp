@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d550
+ *  @tag Simple, Sort
+ */
 #include <iostream>
 #include <algorithm>
 #define N 10010

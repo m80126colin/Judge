@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11032
+ *  @tag 2.0, Brute force, Preprocessing
+ */
 #include <cstdio>
 #include <iostream>
 using namespace std;

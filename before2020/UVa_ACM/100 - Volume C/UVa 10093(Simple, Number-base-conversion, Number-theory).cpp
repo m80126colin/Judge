@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10093
+ *  @tag Simple, Number base conversion, Number theory
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a012
+ *  @tag Easy, Math, Abs
+ */
 #include <iostream>
 using namespace std;
 

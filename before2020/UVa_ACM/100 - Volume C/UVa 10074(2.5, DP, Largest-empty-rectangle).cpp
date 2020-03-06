@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10074
+ *  @tag 2.5, DP, Largest empty rectangle
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

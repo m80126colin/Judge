@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 2008-03
+ *  @tag Simple, DP, Fibonacci number
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

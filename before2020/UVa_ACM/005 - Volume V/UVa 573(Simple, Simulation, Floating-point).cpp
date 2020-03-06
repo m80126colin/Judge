@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 573
+ *  @tag Simple, Simulation, Floating point
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

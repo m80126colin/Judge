@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 374
+ *  @tag Simple, Divide and conquer
+ */
 #include <iostream>
 using namespace std;
 

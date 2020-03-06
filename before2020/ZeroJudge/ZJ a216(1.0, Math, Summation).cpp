@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a216
+ *  @tag 1.0, Math, Summation
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

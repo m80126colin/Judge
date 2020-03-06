@@ -1,3 +1,8 @@
+/**
+ *  @judge NTHU
+ *  @id 9054
+ *  @tag Math, Gcd
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

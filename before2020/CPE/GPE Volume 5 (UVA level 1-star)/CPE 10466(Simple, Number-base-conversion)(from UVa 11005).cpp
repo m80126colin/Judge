@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10466
+ *  @tag Simple, Number base conversion
+ */
 #include <iostream>
 using namespace std;
 

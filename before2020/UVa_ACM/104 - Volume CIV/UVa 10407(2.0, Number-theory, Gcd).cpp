@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10407
+ *  @tag 2.0, Number theory, Gcd
+ */
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>

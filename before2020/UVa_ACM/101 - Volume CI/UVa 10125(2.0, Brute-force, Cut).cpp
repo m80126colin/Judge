@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10125
+ *  @tag 2.0, Brute force, Cut
+ */
 #include <stdio.h>
 #include <iostream>
 #include <algorithm>

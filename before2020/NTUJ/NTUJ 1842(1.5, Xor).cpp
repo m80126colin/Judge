@@ -1,3 +1,8 @@
+/**
+ *  @judge NTUJ
+ *  @id 1842
+ *  @tag 1.5, Xor
+ */
 #include <cstdio>
 #include <iostream>
 #include <map>

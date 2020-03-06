@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id c032
+ *  @tag 2.0, Number theory, Prime sieve, Factorization, Perfect number
+ */
 #include <cstdio>
 #include <iostream>
 using namespace std;

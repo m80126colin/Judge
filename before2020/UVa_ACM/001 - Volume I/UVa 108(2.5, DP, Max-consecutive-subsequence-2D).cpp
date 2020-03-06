@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 108
+ *  @tag 2.5, DP, Max consecutive subsequence 2D
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

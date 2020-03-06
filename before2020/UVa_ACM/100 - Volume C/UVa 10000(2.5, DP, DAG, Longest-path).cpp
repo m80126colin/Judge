@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10000
+ *  @tag 2.5, DP, DAG, Longest path
+ */
 #include <cstdio>
 #include <cstring>
 #include <iostream>

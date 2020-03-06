@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1664
+ *  @tag Easy, Arithmetic operator
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

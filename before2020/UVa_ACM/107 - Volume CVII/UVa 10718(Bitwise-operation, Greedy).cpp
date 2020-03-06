@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10718
+ *  @tag Bitwise operation, Greedy
+ */
 #include <stdio.h>
 #include <iostream>
 #define BIT(i) (1LL << i)

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10474
+ *  @tag Easy, Brute force, Number theory
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

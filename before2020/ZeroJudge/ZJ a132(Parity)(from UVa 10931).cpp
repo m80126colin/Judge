@@ -1,11 +1,16 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a132
+ *  @tag Parity
+ */
 #include <iostream>
 using namespace std;
 
 int t;
 
-void base(int x) /* 10 ¶i¦ìÂà 2 ¶i¦ì */
+void base(int x) /* 10 ï¿½iï¿½ï¿½ï¿½ï¿½ 2 ï¿½iï¿½ï¿½ */
 {
-	if (x > 1) base(x / 2); /* »¼°j¡A¼ÒÀÀ§Ú­Ì¤âºâ¶i¦ìÂà´« (¾l¦¡©w²z) */
+	if (x > 1) base(x / 2); /* ï¿½ï¿½ï¿½jï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Ú­Ì¤ï¿½ï¿½iï¿½ï¿½ï¿½à´« (ï¿½lï¿½ï¿½ï¿½wï¿½z) */
 	if (x % 2) cout << '1', t++;
 	else cout << '0';
 	return;

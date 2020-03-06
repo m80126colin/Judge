@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a024
+ *  @tag Easy, Gcd, Loop, Recursion
+ */
 #include <iostream>
 using namespace std;
 

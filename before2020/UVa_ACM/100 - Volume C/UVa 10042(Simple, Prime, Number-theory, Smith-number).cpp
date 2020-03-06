@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10042
+ *  @tag Simple, Prime, Number theory, Smith number
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

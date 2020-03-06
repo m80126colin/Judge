@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 562
+ *  @tag 2.5, DP, 0 1 knapsack, Subset sum
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

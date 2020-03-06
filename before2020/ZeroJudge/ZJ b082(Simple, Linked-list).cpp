@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id b082
+ *  @tag Simple, Linked list
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

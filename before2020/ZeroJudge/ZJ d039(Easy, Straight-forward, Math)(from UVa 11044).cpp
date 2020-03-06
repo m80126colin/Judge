@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d039
+ *  @tag Easy, Straight forward, Math
+ */
 #include <stdio.h>
 
 int main() {

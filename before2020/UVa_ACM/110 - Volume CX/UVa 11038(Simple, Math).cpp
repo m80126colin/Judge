@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11038
+ *  @tag Simple, Math
+ */
 #include <iostream>
 using namespace std;
 

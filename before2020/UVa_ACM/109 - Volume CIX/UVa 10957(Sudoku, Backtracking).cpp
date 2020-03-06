@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10957
+ *  @tag Sudoku, Backtracking
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

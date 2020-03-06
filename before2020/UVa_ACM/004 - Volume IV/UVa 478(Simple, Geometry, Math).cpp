@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 478
+ *  @tag Simple, Geometry, Math
+ */
 #include <stdio.h>
 #include <iostream>
 #include <math.h>

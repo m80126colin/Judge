@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d882
+ *  @tag DP, Bigint, Math, Hanoi
+ */
 #include <iostream>
 #include <ctype.h>
 #include <string>

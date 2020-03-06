@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11351
+ *  @tag Josephus problem, Math, DP, Simulation
+ */
 #include <iostream>
 #include <stdio.h>
 #include <string.h>

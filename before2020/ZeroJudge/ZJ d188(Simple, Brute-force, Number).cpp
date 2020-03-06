@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id d188
+ *  @tag Simple, Brute force, Number
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

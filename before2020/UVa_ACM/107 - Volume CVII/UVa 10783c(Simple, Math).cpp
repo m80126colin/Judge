@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10783c
+ *  @tag Simple, Math
+ */
 #include <stdio.h>
 int main() {
 	int a,b,t,i;

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10461
+ *  @tag Easy, Brute force, Bitwise operation, Number base conversion, Parity
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

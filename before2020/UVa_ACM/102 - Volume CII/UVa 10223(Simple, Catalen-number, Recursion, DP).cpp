@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10223
+ *  @tag Simple, Catalen number, Recursion, DP
+ */
 #include <stdio.h>
 #include <iostream>
 #include <algorithm>

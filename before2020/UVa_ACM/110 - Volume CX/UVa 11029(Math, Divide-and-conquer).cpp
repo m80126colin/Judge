@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11029
+ *  @tag Math, Divide and conquer
+ */
 #include <stdio.h>
 #include <iostream>
 #include <math.h>

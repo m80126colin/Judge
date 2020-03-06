@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10931
+ *  @tag 1.5, Ad hoc, Base coversion, Parity
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

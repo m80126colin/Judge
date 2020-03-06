@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 948
+ *  @tag Brute force, Fibonacci, Zeckendorf representation
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10410
+ *  @tag Simple, Brute force, String, Sorting, Counting frequency
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

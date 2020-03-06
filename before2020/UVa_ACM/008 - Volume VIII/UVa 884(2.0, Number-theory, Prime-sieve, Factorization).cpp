@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 884
+ *  @tag 2.0, Number theory, Prime sieve, Factorization
+ */
 #include <cstdio>
 #include <cmath>
 #include <iostream>

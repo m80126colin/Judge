@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10830
+ *  @tag Math, Number theory, Number factorization
+ */
 #include <stdio.h>
 #include <math.h>
 #include <iostream>

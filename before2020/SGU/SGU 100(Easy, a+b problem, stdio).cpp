@@ -1,3 +1,8 @@
+/**
+ *  @judge SGU
+ *  @id 100
+ *  @tag Easy, a+b problem, stdio
+ */
 #include <stdio.h>
 #include <iostream>
 using namespace std;

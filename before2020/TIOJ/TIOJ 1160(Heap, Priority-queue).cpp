@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1160
+ *  @tag Heap, Priority queue
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <vector>

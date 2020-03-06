@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 11577
+ *  @tag Easy, Count frequency, String manipulation
+ */
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>

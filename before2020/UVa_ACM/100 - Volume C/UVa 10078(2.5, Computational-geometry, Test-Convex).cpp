@@ -1,3 +1,8 @@
+/**
+ *  @judge UVa
+ *  @id 10078
+ *  @tag 2.5, Computational geometry, Test Convex
+ */
 #include <cstdio>
 #include <cstring>
 #include <cmath>

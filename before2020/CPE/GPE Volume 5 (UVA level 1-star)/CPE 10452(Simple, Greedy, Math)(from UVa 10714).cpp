@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10452
+ *  @tag Simple, Greedy, Math
+ */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>

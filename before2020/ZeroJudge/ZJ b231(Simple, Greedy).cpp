@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id b231
+ *  @tag Simple, Greedy
+ */
 #include <stdio.h>
 #include <iostream>
 #include <algorithm>

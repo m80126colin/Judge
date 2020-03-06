@@ -1,3 +1,8 @@
+/**
+ *  @judge CPE
+ *  @id 10471
+ *  @tag Simple, Brute force, Palindrome
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

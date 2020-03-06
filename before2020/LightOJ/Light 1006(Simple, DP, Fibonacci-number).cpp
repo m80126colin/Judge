@@ -1,3 +1,8 @@
+/**
+ *  @judge Light
+ *  @id 1006
+ *  @tag Simple, DP, Fibonacci number
+ */
 #include <stdio.h>
 #include <string.h>
 #include <iostream>

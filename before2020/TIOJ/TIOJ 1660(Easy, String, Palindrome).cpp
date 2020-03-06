@@ -1,3 +1,8 @@
+/**
+ *  @judge TIOJ
+ *  @id 1660
+ *  @tag Easy, String, Palindrome
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>

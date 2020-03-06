@@ -1,3 +1,8 @@
+/**
+ *  @judge ZeroJudge
+ *  @id a006
+ *  @tag Easy, Float, Math
+ */
 #include <iostream>
 #include <math.h>
 using namespace std;
