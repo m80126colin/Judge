@@ -1,0 +1,19 @@
+{
+  "name": "judge",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "g++ -std=c++11 -o test",
+    "poststart": "yarn test",
+    "test": "./test",
+    "prebuild": "rm -rf dist/",
+    "build": "node meta/generator.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15"
+  }
+}
