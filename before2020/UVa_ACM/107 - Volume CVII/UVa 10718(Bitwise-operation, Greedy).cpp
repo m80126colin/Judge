@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10718
- *  @tag Bitwise operation, Greedy
+ *  @tag Bitwise Operation, Greedy
  */
 #include <stdio.h>
 #include <iostream>

@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10071
- *  @tag 1.0, Ad hoc, Arithmetic operation
+ *  @tag 1.0, Ad-hoc, Arithmetic Operation
  */
 #include <stdio.h>
 #include <iostream>

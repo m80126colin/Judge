@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d923
- *  @tag Simple, Bitwise operation
+ *  @tag Simple, Bitwise Operation
  */
 #include <stdio.h>
 #include <iostream>

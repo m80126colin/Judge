@@ -1,7 +1,7 @@
 /**
  *  @judge Light
  *  @id 1008
- *  @tag Simple, Ad hoc
+ *  @tag Simple, Ad-hoc
  */
 #include <stdio.h>
 #include <iostream>

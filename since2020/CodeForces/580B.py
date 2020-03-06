@@ -3,7 +3,7 @@
 	@id 580B
 	@name Kefa and Company
 
-	@tag dp, Maximum Consecutive Sum
+	@tag Maximum Consecutive Sum
 '''
 from sys import stdin
 

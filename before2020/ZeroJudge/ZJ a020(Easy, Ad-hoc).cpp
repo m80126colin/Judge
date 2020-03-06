@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id a020
- *  @tag Easy, Ad hoc
+ *  @tag Easy, Ad-hoc
  */
 #include <iostream>
 #include <string>

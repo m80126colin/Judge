@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id a010
- *  @tag Simple, Prime factorization, String manipulation
+ *  @tag Simple, Prime factorization, String Manipulation
  */
 #include <iostream>
 using namespace std;

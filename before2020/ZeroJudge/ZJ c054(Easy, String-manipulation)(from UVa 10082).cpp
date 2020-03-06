@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id c054
- *  @tag Easy, String manipulation
+ *  @tag Easy, String Manipulation
  */
 #include <iostream>
 using namespace std;

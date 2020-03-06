@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 575
- *  @tag 1.5, Ad hoc, Base conversion
+ *  @tag 1.5, Ad-hoc, Number Base Conversion
  */
 #include <stdio.h>
 #include <string.h>

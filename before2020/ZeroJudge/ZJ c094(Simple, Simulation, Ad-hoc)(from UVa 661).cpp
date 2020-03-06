@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id c094
- *  @tag Simple, Simulation, Ad hoc
+ *  @tag Simple, Simulation, Ad-hoc
  */
 #include <stdio.h>
 #include <string.h>

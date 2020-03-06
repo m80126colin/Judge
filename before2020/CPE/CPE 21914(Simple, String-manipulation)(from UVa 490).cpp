@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 21914
- *  @tag Simple, String manipulation
+ *  @tag Simple, String Manipulation
  */
 #include <stdio.h>
 #include <string.h>

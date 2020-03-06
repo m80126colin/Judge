@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10063
- *  @tag Simple, String manipulation, Backtracking
+ *  @tag Simple, String Manipulation, Backtracking
  */
 #include <stdio.h>
 #include <string.h>

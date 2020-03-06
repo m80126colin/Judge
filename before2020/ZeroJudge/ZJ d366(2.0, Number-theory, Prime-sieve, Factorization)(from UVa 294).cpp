@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d366
- *  @tag 2.0, Number theory, Prime sieve, Factorization
+ *  @tag 2.0, Number Theory, Prime sieve, Factorization
  */
 #include <cstdio>
 #include <iostream>

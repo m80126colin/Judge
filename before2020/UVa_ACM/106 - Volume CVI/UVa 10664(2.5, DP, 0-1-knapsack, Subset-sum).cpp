@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10664
- *  @tag 2.5, DP, 0 1 knapsack, Subset sum
+ *  @tag 2.5, 01-Knapsack, Subset Sum
  */
 #include <cstdio>
 #include <cstring>

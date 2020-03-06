@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d449
- *  @tag Disjoint set, Union find set
+ *  @tag Disjoint Set
  */
 #include <iostream>
 #include <stdio.h>

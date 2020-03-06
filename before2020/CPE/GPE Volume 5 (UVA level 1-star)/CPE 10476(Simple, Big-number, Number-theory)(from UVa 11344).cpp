@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 10476
- *  @tag Simple, Big number, Number theory
+ *  @tag Simple, Big number, Number Theory
  */
 #include <stdio.h>
 #include <iostream>

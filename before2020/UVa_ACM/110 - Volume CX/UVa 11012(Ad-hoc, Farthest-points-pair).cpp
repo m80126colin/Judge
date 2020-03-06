@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11012
- *  @tag Ad hoc, Farthest points pair
+ *  @tag Ad-hoc, Farthest points pair
  */
 #include <stdio.h>
 #include <iostream>

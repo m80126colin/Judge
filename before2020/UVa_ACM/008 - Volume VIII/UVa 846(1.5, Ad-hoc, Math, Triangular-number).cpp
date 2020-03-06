@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 846
- *  @tag 1.5, Ad hoc, Math, Triangular number
+ *  @tag 1.5, Ad-hoc, Math, Triangular number
  */
 #include <stdio.h>
 #include <math.h>

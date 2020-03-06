@@ -3,7 +3,7 @@
 	@id 1281A
 	@name Suffix Three
 
-	@tag String manipulation
+	@tag String Manipulation
 '''
 def solve(s):
 	if s[-2:] == 'po':

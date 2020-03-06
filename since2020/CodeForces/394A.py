@@ -3,7 +3,7 @@
 	@id 394A
 	@name Counting Sticks
 
-	@tag String manipulation
+	@tag String Manipulation
 '''
 import re
 

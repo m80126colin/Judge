@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d466
- *  @tag Easy, Ad hoc, Date problem
+ *  @tag Easy, Ad-hoc, Date problem
  */
 #include <stdio.h>
 #include <iostream>

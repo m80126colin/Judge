@@ -1,7 +1,7 @@
 /**
  *  @judge TIOJ
  *  @id 1663
- *  @tag Easy, Arithmetic operator, Comparison operator
+ *  @tag Easy, Arithmetic Operation, Comparison operator
  */
 #include <iostream>
 #include <stdio.h>

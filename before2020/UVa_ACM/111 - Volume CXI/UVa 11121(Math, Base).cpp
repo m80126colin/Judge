@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11121
- *  @tag Math, Base
+ *  @tag Math, Number Base Conversion
  */
 #include <stdio.h>
 #include <iostream>

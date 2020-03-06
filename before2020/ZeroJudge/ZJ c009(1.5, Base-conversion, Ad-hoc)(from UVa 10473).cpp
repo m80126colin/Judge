@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id c009
- *  @tag 1.5, Base conversion, Ad hoc
+ *  @tag 1.5, Number Base Conversion, Ad-hoc
  */
 #include <iostream>
 #include <cstdio>

@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 908
- *  @tag Minimum spanning tree, MST
+ *  @tag Minimum Spanning Tree
  */
 #include <stdio.h>
 #include <algorithm>

@@ -3,7 +3,7 @@
 	@id 344A
 	@name Magnets
 
-	@tag Ad-hoc, String manipulation
+	@tag Ad-hoc, String Manipulation
 '''
 from sys import stdin
  

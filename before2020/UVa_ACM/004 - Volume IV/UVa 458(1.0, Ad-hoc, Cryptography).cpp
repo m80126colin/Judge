@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 458
- *  @tag 1.0, Ad hoc, Cryptography
+ *  @tag 1.0, Ad-hoc, Cryptography
  */
 #include <stdio.h>
 #include <string>

@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11313
- *  @tag 1.0, Cola, Simulation, Ad hoc
+ *  @tag 1.0, Cola, Simulation, Ad-hoc
  */
 #include <cstdio>
 #include <iostream>

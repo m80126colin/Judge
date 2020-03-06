@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10174
- *  @tag Simple, Math, Number theory
+ *  @tag Simple, Math, Number Theory
  */
 #include <iostream>
 #include <map>

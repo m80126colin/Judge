@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11709
- *  @tag 2.5, Strongly connected component, SCC, Connnectivity
+ *  @tag 2.5, Strongly Connected Component
  */
 #include <cstdio>
 #include <cstring>

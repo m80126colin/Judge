@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 146
- *  @tag 1.0, Next permutation, Permutation, Recursive
+ *  @tag 1.0, Next permutation, Permutation, Recursion
  */
 #include <stdio.h>
 #include <string.h>

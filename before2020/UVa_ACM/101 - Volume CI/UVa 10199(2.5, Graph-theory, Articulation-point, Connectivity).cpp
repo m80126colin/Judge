@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10199
- *  @tag 2.5, Graph theory, Articulation point, Connectivity
+ *  @tag 2.5, Graph theory, Articulation Point, Connectivity
  */
 #include <cstdio>
 #include <cstdlib>

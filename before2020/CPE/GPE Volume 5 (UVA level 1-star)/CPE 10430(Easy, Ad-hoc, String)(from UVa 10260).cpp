@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 10430
- *  @tag Easy, Ad hoc, String
+ *  @tag Easy, Ad-hoc, String
  */
 #include <map>
 #include <stdio.h>

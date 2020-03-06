@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10469
- *  @tag 1.0, Bitwise operation, Xor
+ *  @tag 1.0, Bitwise Operation, Xor
  */
 #include <iostream>
 #include <stdio.h>

@@ -3,7 +3,7 @@
 	@id 705A
 	@name Hulk
 
-	@tag String manipulation
+	@tag String Manipulation
 '''
 n = int(input())
 

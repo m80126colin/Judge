@@ -1,7 +1,7 @@
 /**
  *  @judge CPE
  *  @id 10479
- *  @tag Easy, Brute force, Number theory
+ *  @tag Easy, Brute force, Number Theory
  */
 #include <stdio.h>
 #include <string.h>

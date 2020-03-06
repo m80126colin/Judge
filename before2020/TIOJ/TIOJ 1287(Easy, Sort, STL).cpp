@@ -1,7 +1,7 @@
 /**
  *  @judge TIOJ
  *  @id 1287
- *  @tag Easy, Sort, STL
+ *  @tag Easy, Sortings, STL
  */
 #include <stdio.h>
 #include <ctype.h>

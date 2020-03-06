@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 11461
- *  @tag Number theory, Brute force, BIT
+ *  @tag Number Theory, Brute force, BIT
  */
 #include <stdio.h>
 #include <iostream>

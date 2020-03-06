@@ -3,7 +3,7 @@
 	@id 978B
 	@name File Name
 
-	@tag String manipulation
+	@tag String Manipulation
 '''
 import re
 

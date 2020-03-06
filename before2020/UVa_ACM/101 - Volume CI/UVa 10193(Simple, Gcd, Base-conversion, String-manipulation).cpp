@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10193
- *  @tag Simple, Gcd, Base conversion, String manipulation
+ *  @tag Simple, Gcd, Number Base Conversion, String Manipulation
  */
 #include <stdio.h>
 #include <string.h>

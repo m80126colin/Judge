@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10093
- *  @tag Simple, Number base conversion, Number theory
+ *  @tag Simple, Number Base Conversion, Number Theory
  */
 #include <stdio.h>
 #include <ctype.h>

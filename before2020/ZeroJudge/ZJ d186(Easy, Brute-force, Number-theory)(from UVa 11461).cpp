@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d186
- *  @tag Easy, Brute force, Number theory
+ *  @tag Easy, Brute force, Number Theory
  */
 #include <iostream>
 using namespace std;

@@ -1,7 +1,7 @@
 /**
  *  @judge ZeroJudge
  *  @id d432
- *  @tag Simple, Tree traversal, Recursive
+ *  @tag Simple, Tree traversal, Recursion
  */
 #include <stdio.h>
 #include <iostream>
