@@ -1,8 +1,10 @@
 /**
- *  CodeForces 1321A, Round #625 div.2 A
- *  Contest for Robots
+ *  @judge CodeForces
+ *  @id 1321A
+ *  @name Contest for Robots
+ *  @contest CodeForces Round #625 div.2
  * 
- *  Tags: Ad-hoc, Math
+ *  @tag Ad-hoc, Math
  */
 #include <iostream>
 using namespace std;

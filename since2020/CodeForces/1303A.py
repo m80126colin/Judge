@@ -1,8 +1,9 @@
 '''
-	CodeForce 1303A
-	Erasing Zeroes
+	@judge CodeForces
+	@id 1303A
+	@name Erasing Zeroes
 	
-	Tags: String Manipulation
+	@tag String Manipulation
 '''
 from sys import stdin
 

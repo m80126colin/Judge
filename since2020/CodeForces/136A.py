@@ -1,8 +1,9 @@
 '''
-	CodeForces 136A
-	Presents
+	@judge CodeForces
+	@id 136A
+	@name Presents
 
-	Tags: Sort
+	@tag Sort
 '''
 n   = int(input())
 ans = sorted(list(zip(input().split(), range(1, n + 1))), key=lambda p: int(p[0]))

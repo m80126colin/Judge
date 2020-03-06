@@ -1,8 +1,9 @@
 '''
-	CodeForces 122A
-	Lucky Division
+	@judge CodeForces
+	@id 122A
+	@name Lucky Division
 
-	Tags: Math
+	@tag Math
 '''
 
 '''

@@ -1,8 +1,9 @@
 '''
-	CodeForces 1077A
-	Frog Jumping
+	@judge CodeForces
+	@id 1077A
+	@name Frog Jumping
 
-	Tags: Math
+	@tag Math
 '''
 t = int(input())
 

@@ -1,8 +1,9 @@
 '''
-	CodeForces 1030A
-	In Search of an Easy Problem
+	@judge CodeForces
+	@id 1030A
+	@name In Search of an Easy Problem
 
-	Tags: Ad-hoc
+	@tag Ad-hoc
 '''
 import re
 

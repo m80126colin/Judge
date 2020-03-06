@@ -1,6 +1,11 @@
 /**
-	CodeForces Round #624 div.3
-*/
+ *  @judge CodeForces
+ *  @id 1311B
+ *  @name WeirdSort
+ *  @contest CodeForces Round #624 div.3
+ * 
+ *  @tag Sortings
+ */
 #include <iostream>
 #include <algorithm>
 using namespace std;

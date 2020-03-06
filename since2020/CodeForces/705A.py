@@ -1,8 +1,9 @@
 '''
-	CodeForces 705A
-	Hulk
+	@judge CodeForces
+	@id 705A
+	@name Hulk
 
-	Tags: String manipulation
+	@tag String manipulation
 '''
 n = int(input())
 

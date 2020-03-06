@@ -1,8 +1,9 @@
 '''
-	CodeForces 1003A
-	Polycarp's Pockets
+	@judge CodeForces
+	@id 1003A
+	@name Polycarp's Pockets
 
-	Tags: Counting
+	@tag Counting
 '''
 from collections import Counter
 

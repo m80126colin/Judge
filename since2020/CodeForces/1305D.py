@@ -1,8 +1,10 @@
 '''
-	CodeForces 1305D, Ozon Tech Challenge 2020
-	Kuroni and the Celebration
+	@judge CodeForces
+	@id 1305D
+	@name Kuroni and the Celebration
+	@contest Ozon Tech Challenge 2020
 
-	Tags: Ad-hoc, Simulation
+	@tag Ad-hoc, Simulation
 '''
 from sys import stdout
 from itertools import chain, groupby

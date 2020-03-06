@@ -1,8 +1,9 @@
 '''
-	CodeForces 1281A
-	Suffix Three
+	@judge CodeForces
+	@id 1281A
+	@name Suffix Three
 
-	Tags: String manipulation
+	@tag String manipulation
 '''
 def solve(s):
 	if s[-2:] == 'po':

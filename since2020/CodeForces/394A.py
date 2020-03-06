@@ -1,8 +1,9 @@
 '''
-	CodeForces 394A
-	Counting Sticks
+	@judge CodeForces
+	@id 394A
+	@name Counting Sticks
 
-	Tags: String manipulation
+	@tag String manipulation
 '''
 import re
 

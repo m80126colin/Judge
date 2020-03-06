@@ -1,8 +1,9 @@
 '''
-	CodeForces 1095A
-	Repeating Cipher
+	@judge CodeForces
+	@id 1095A
+	@name Repeating Cipher
 
-	Tags: String manipulation
+	@tag String manipulation
 '''
 from functools import reduce
 

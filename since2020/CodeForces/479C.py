@@ -1,8 +1,9 @@
 '''
-	CodeForces 479C
-	Exams
+	@judge CodeForces
+	@id 479C
+	@name Exams
 
-	Tags: Sortings, Greedy
+	@tag Sortings, Greedy
 '''
 from sys import stdin
 

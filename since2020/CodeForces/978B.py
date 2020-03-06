@@ -1,8 +1,9 @@
 '''
-	CodeForces 978B
-	File Name
+	@judge CodeForces
+	@id 978B
+	@name File Name
 
-	Tags: String manipulation
+	@tag String manipulation
 '''
 import re
 

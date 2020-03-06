@@ -1,8 +1,9 @@
 '''
-	CodeForces 711A
-	Bus to Udayland
+	@judge CodeForces
+	@id 711A
+	@name Bus to Udayland
 
-	Tags: Simpulation, String manipulation
+	@tag Simpulation, String manipulation
 '''
 from sys import stdin
 

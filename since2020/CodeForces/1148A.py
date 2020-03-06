@@ -1,8 +1,9 @@
 '''
-	CodeForces 1148A
-	Another One Bites The Dust
+	@judge CodeForces
+	@id 1148A
+	@name Another One Bites The Dust
 
-	Tags: Ad-hoc
+	@tag Ad-hoc
 '''
 a, b, c = map(int, input().split())
 ans = min(a, b) + c

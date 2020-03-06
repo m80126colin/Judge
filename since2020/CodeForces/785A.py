@@ -1,8 +1,9 @@
 '''
-	CodeForces 785A
-	Anton and Polyhedrons
+	@judge CodeForces
+	@id 785A
+	@name Anton and Polyhedrons
 
-	Tags: Counting
+	@tag Counting
 '''
 face = dict(
 	Tetrahedron=4,

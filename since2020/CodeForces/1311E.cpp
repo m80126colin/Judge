@@ -1,6 +1,11 @@
 /**
-	CodeForces Round #624 div.3
-*/
+ *  @judge CodeForces
+ *  @id 1311E
+ *  @name Construct the Binary Tree
+ *  @contest CodeForces Round #624 div.3
+ * 
+ *  @tag Tree, Ad-hoc
+ */
 #include <iostream>
 using namespace std;
 

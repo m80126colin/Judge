@@ -1,8 +1,9 @@
 '''
-	CodeForces 1A
-	Theatre Square
+	@judge CodeForces
+	@id 1A
+	@name Theatre Square
 
-	Tags: Math
+	@tag Math
 '''
 from math import ceil
 

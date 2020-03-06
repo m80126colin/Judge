@@ -1,8 +1,9 @@
 '''
-	CodeForces 721A
-	One-dimensional Japanese Crossword
+	@judge CodeForces
+	@id 721A
+	@name One-dimensional Japanese Crossword
 
-	Tags: String manipulation
+	@tag String manipulation
 '''
 import re
 

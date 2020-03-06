@@ -1,8 +1,9 @@
 '''
-	CodeForces 344A
-	Magnets
+	@judge CodeForces
+	@id 344A
+	@name Magnets
 
-	Tags: Ad-hoc, String manipulation
+	@tag Ad-hoc, String manipulation
 '''
 from sys import stdin
  

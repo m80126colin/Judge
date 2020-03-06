@@ -1,8 +1,9 @@
 '''
-	CodeForces 935A
-	Fafa and his Company
+	@judge CodeForces
+	@id 935A
+	@name Fafa and his Company
 
-	Tags: Math, Prime
+	@tag Math, Prime
 '''
 from math import sqrt
 

@@ -1,6 +1,11 @@
 /**
-	CodeForces Round #624 div.3
-*/
+ *  @judge CodeForces
+ *  @id 1311F
+ *  @name Moving Points
+ *  @contest CodeForces Round #624 div.3
+ * 
+ *  @tag Monotonic, Prefix Sum
+ */
 #include <iostream>
 #include <algorithm>
 using namespace std;

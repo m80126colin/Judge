@@ -1,8 +1,9 @@
 '''
-	CodeForces 200B
-	Drinks
+	@judge CodeForces
+	@id 200B
+	@name Drinks
 
-	Tags: Math
+	@tag Math
 '''
 n   = int(input())
 ans = sum(map(int, input().split())) / n

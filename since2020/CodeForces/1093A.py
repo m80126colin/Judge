@@ -1,8 +1,9 @@
 '''
-	CodeForces 1093A
-	Dice Rolling
+	@judge CodeForces
+	@id 1093A
+	@name Dice Rolling
 
-	Tags: Math
+	@tag Math
 '''
 from math import ceil
 

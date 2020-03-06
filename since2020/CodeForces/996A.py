@@ -1,8 +1,9 @@
 '''
-	CodeForces 996A
-	Hit the Lottery
+	@judge CodeForces
+	@id 996A
+	@name Hit the Lottery
 
-	Tags: Simulation, Coin Change
+	@tag Simulation, Coin Change
 '''
 from functools import reduce
 

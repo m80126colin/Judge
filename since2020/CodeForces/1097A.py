@@ -1,8 +1,9 @@
 '''
-	CodeForces 1097A
-	Gennady and a Card Game
+	@judge CodeForces
+	@id 1097A
+	@name Gennady and a Card Game
 
-	Tags: Ad-hoc, Card Game
+	@tag Ad-hoc, Card Game
 '''
 card = input()
 hand = input().split()

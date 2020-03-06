@@ -1,8 +1,10 @@
 /**
- *  CodeForces 1305A, Ozon Tech Challenge 2020
- *  Kuroni and the Gifts
+ *  @judge CodeForces
+ *  @id 1305A
+ *  @name Kuroni and the Gifts
+ *  @contest Ozon Tech Challenge 2020
  * 
- *  Tags: Sorting
+ *  @tag Sorting
  */
 #include <iostream>
 #include <algorithm>

@@ -1,8 +1,9 @@
 '''
-	CodeForces 977A
-	Wrong Subtraction
+	@judge CodeForces
+	@id 977A
+	@name Wrong Subtraction
 
-	Tags: Simulation
+	@tag Simulation
 '''
 n, k = tuple(map(int, input().split()))
 

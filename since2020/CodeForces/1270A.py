@@ -1,8 +1,9 @@
 '''
-	CodeForces 1270A
-	Card Game
+	@judge CodeForces
+	@id 1270A
+	@name Card Game
 
-	Tags: Game Theory, Ad-hoc
+	@tag Game Theory, Ad-hoc
 '''
 def testCase():
 	input()

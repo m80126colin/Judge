@@ -1,8 +1,9 @@
 '''
-	CodeForces 1005A
-	Tanya and Stairways
+	@judge CodeForces
+	@id 1005A
+	@name Tanya and Stairways
 
-	Tags: Ad-hoc
+	@tag Ad-hoc
 '''
 n = int(input())
 arr = list(map(int, input().split()))

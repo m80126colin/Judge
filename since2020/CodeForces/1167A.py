@@ -1,8 +1,9 @@
 '''
-	CodeForces 1167A
-	Telephone Number
+	@judge CodeForces
+	@id 1167A
+	@name Telephone Number
 
-	Tags: Ad-hoc
+	@tag Ad-hoc
 '''
 def testCase():
 	input()

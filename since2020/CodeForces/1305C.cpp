@@ -1,8 +1,10 @@
 /**
- *  CodeForces 1305C, Ozon Tech Challenge 2020
- *  Kuroni and Impossible Calculation
+ *  @judge CodeForces
+ *  @id 1305C
+ *  @name Kuroni and Impossible Calculation
+ *  @contest Ozon Tech Challenge 2020
  * 
- *  Tags: Math, Congruence
+ *  @tag Math, Congruence
  */
 #include <iostream>
 #include <cmath>

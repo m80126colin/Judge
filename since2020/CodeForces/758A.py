@@ -1,8 +1,9 @@
 '''
-	CodeForces 758A
-	Holiday Of Equality
+	@judge CodeForces
+	@id 758A
+	@name Holiday Of Equality
 
-	Tags: Math
+	@tag Math
 '''
 n = int(input())
 citizen = list(map(int, input().split()))

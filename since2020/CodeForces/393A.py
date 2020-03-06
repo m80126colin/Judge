@@ -1,8 +1,9 @@
 '''
-	CodeForces 393A
-	Nineteen
+	@judge CodeForces
+	@id 393A
+	@name Nineteen
 
-	Tags: Counting
+	@tag Counting
 '''
 from collections import Counter
 

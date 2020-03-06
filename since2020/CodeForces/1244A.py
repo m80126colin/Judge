@@ -1,8 +1,9 @@
 '''
-	CodeForces 1244A
-	Pens and Pencils
+	@judge CodeForces
+	@id 1244A
+	@name Pens and Pencils
 
-	Tags: Math
+	@tag Math
 '''
 from math import ceil
 

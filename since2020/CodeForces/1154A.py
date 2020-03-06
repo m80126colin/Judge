@@ -1,8 +1,9 @@
 '''
-	CodeForces 1154A
-	Restoring Three Numbers
+	@judge CodeForces
+	@id 1154A
+	@name Restoring Three Numbers
 
-	Tags: Math
+	@tag Math
 '''
 ls  = list(map(int, input().split()))
 m   = max(ls)

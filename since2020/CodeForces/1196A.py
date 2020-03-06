@@ -1,8 +1,9 @@
 '''
-	CodeForces 1196A
-	Three Piles of Candies
+	@judge CodeForces
+	@id 1196A
+	@name Three Piles of Candies
 
-	Tags: Game Theory
+	@tag Game Theory
 '''
 from sys import stdin
 

@@ -1,8 +1,9 @@
 '''
-	CodeForces 550A
-	Two Substrings
+	@judge CodeForces
+	@id 550A
+	@name Two Substrings
 
-	Tags: String manipulation
+	@tag String manipulation
 '''
 s = input()
 

@@ -1,8 +1,9 @@
 '''
-	CodeForces 734A
-	Anton and Danik
+	@judge CodeForces
+	@id 734A
+	@name Anton and Danik
 
-	Tags: Ad-hoc, Counting
+	@tag Ad-hoc, Counting
 '''
 def solve(s):
 	a = s.count('A') - s.count('D')

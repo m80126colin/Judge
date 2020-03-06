@@ -1,8 +1,10 @@
 '''
-	CodeForces 1321C
-	Remove Adjacent
+	@judge CodeForces
+	@id 1321C
+	@name Remove Adjacent
+	@contest CodeForces Round #625 div.2
 
-	Tags: Ad-hoc, String Manipulation
+	@tag Ad-hoc, String Manipulation
 '''
 import re
 from functools import reduce

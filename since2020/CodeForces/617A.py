@@ -1,8 +1,9 @@
 '''
-	CodeForces 617A
-	Elephant
+	@judge CodeForces
+	@id 617A
+	@name Elephant
 
-	Tags: Math
+	@tag Math
 '''
 n = int(input())
 

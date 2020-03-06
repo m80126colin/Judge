@@ -1,8 +1,9 @@
 '''
-	CodeForces 277A
-	Learning Languages
+	@judge CodeForces
+	@id 277A
+	@name Learning Languages
 
-	Tags: Disjoint forest
+	@tag Disjoint forest
 '''
 from sys import stdin
 

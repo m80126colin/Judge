@@ -1,8 +1,9 @@
 '''
-	CodeForces 1139A
-	Even Substrings
+	@judge CodeForces
+	@id 1139A
+	@name Even Substrings
 
-	Tags: String, Manipulation
+	@tag String, Manipulation
 '''
 
 input()

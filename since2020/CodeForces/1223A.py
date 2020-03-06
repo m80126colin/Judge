@@ -1,8 +1,9 @@
 '''
-	CodeForces 1223A
-	CME
+	@judge CodeForces
+	@id 1223A
+	@name CME
 
-	Tags: Math
+	@tag Math
 '''
 def solve(n):
 	if n < 4:

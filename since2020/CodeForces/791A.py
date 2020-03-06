@@ -1,8 +1,9 @@
 '''
-	CodeForces 791A
-	Bear and Big Brother
+	@judge CodeForces
+	@id 791A
+	@name Bear and Big Brother
 
-	Tags: Simulation
+	@tag Simulation
 '''
 def countYear(a, b):
 	n = 0

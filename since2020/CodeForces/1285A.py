@@ -1,8 +1,9 @@
 '''
-	CodeForces 1285A
-	Mezo Playing Zoma
+	@judge CodeForces
+	@id 1285A
+	@name Mezo Playing Zoma
 
-	Tags: Counting
+	@tag Counting
 '''
 n = int(input())
 s = input()

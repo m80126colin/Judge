@@ -1,8 +1,10 @@
 '''
-	CodeForces 1305B, Ozon Tech Challenge 2020
-	Kuroni and Simple Strings
+	@judge CodeForces
+	@id 1305B
+	@name Kuroni and Simple Strings
+	@contest Ozon Tech Challenge 2020
 
-	Tags: String Manipulation, Greedy
+	@tag String Manipulation, Greedy
 '''
 from itertools import accumulate
 

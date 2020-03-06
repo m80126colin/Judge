@@ -1,8 +1,10 @@
 /**
- *  CodeForces 1320A, Round #625 div.2 B
- *  Journey Planning
+ *  @judge CodeForces
+ *  @id 1320A
+ *  @name Journey Planning
+ *  @contest CodeForces Round #625 div.2
  * 
- *  Tags: Math, Grouping
+ *  @tag Math, Grouping
  */
 #include <iostream>
 #include <map>
