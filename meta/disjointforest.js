@@ -14,7 +14,11 @@ const union = (table, edge) => {
 }
 
 const grouping = (nodes, edges) => {
-  const table = _.chain(nodes).map(node => [node, node]).fromPairs().value()
+  const total_nodes = _.chain(nodes)
+    .concat(_.flatten(edges))
+    .uniqBy()
+    .value()
+  const table = _.chain(total_nodes).map(node => [node, node]).fromPairs().value()
   _.map(edges, edge => union(table, edge))
   _.map(nodes, node => find(table, node))
   return table
