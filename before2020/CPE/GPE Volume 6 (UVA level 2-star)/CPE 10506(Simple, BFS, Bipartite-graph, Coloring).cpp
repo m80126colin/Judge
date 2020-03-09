@@ -2,8 +2,6 @@
  *  @judge CPE
  *  @id 10506
  *  @source UVa 10004
- * 
- *  @tag Simple, BFS, Coloring, Adjacency list
  */
 #include <stdio.h>
 #include <string.h>
@@ -12,8 +10,7 @@
 using namespace std;
 
 #define MAX 210
-int n, m, node[MAX];
-vector<int> edge[MAX];
+int n, m, node[MAX], edge[MAX][MAX];
 
 inline int bfs()
 {
@@ -26,10 +23,10 @@ inline int bfs()
 	{
 		x = Q.front();
 		Q.erase(Q.begin());
-		for (i = 0; i < edge[x].size(); i++)
+		for (i = 0; i < n; i++)
 		{
-			y = edge[x][i];
-			if (y <= x) continue;
+			if (edge[x][i] == 0) continue;
+			y = i;
 			if (node[y] == node[x]) return 0;
 			else if (!node[y])
 			{
@@ -44,17 +41,16 @@ inline int bfs()
 
 int main()
 {
-	int a, b, i;
+	int a, b;
 	while (scanf("%d", &n) != EOF)
 	{
 		scanf("%d", &m);
 		memset(node, 0, sizeof(node));
-		for (i = 0; i < n; i++) edge[i].clear();
-		for (i = 0; i < m; i++)
+		memset(edge, 0, sizeof(edge));
+		for (int i = 0; i < m; i++)
 		{
 			scanf("%d%d", &a, &b);
-			edge[a].push_back(b);
-			edge[b].push_back(a);
+			edge[a][b] = edge[b][a] = 1;
 		}
 		if (bfs()) puts("BICOLORABLE.");
 		else puts("NOT BICOLORABLE.");
