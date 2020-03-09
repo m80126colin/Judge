@@ -3,44 +3,23 @@ const path  = require('path')
 const util  = require('util')
 const globO = require('glob')
 const fs    = require('fs')
-const ghpages = require('gh-pages')
 
-const glob = util.promisify(globO)
+const config = require('./config')
+const forest = require('./disjointforest')
+const glob   = util.promisify(globO)
 
 const root = path.join(__dirname, '..')
-
-const regex = {
-  cpp: /^\s*\/\*+\s*((?:.|\r|\n)+?)\s*\*+\//u,
-  py:  /^\s*'''\s*((?:.|\r|\n)+?)\s*'''/u,
-  hs:  /^\s*\{-+\s*((?:.|\r|\n)+?)\s*-+\}/u
-}
-
-const lookup = {
-  '.cpp': 'cpp',
-  '.cc': 'cpp',
-  '.py': 'py',
-  '.hs': 'hs'
-}
-
-const merger = (key, vals) => {
-  switch (key) {
-    case 'judge':
-    case 'id':
-    case 'name':
-      return _.head(vals)
-    case 'contest':
-    case 'tag':
-      return _.chain(vals).flatten().uniqBy().value()
-  }
-}
-
-const parser = async file => {
-  const ext   = path.extname(file)
-  const data  = await fs.promises.readFile(file, 'utf-8')
-  const match = data.match(regex[lookup[ext]])
+/**
+ * @param {string} data source code
+ * @param {string} ext extension of file
+ */
+const parseAttr = (data, ext) => {
+  const match = data.match(config.getRegex(ext))
+  // no comment
   if (_.isNull(match))
-    return undefined
-  const temp = _.chain(match[1])
+    return []
+  // parse attribute
+  const attr = _.chain(match[1])
     .split(/\r?\n/)
     .map(line => {
       const group = line.match(/@(\S+)\s+(.+)/u)
@@ -53,41 +32,92 @@ const parser = async file => {
     })
     .compact()
     .value()
-  if (temp.length === 0)
+  return attr
+}
+/**
+ * @param {string} file file name
+ * @returns {{
+ *    isnew?   : boolean,
+ *    problem? : string,
+ *    judge?   : string,
+ *    id?      : string,
+ *    name?    : string,
+ *    source?  : string[],
+ *    contest? : string[],
+ *    tag?     : string[]
+ * }}
+ */
+const parser = async file => {
+  const data = await fs.promises.readFile(file, 'utf-8')
+  const attr = parseAttr(data, path.extname(file))
+  // empty comment
+  if (attr.length === 0)
     return undefined
-  const result = _.chain(temp)
+  // process tag
+  const result = _.chain(attr)
     .groupBy('tag')
     .mapValues((ps, key) => {
       if (key !== 'tag')
-        return merger(key, _.map(ps, 'value'))
+        return config.getMerge(key, _.map(ps, 'value'))
       const vals = _.chain(ps)
         .flatMap(p => _.split(p.value, ','))
         .map(_.trim)
-        .uniqBy()
         .value()
-      return merger(key, vals)
+      return config.getMerge(key, vals)
     })
     .thru(obj => _.merge(obj, obj.id ? {} : { id: obj.name }))
+    .thru(obj => _.merge(obj, {
+      isnew: /since2020/u.test(file),
+      problem: `${obj.judge} ${obj.id}`
+    }))
     .value()
   return result
 }
 
 const execute = async () => {
+  // parse all name of files
   const files = await glob(`${root}/@(before2020|since2020)/**/*.*`)
+  // parse all files with corresponding ext name
   const promises = _.chain(files)
-    .filter(file => lookup[path.extname(file)])
+    .filter(file => config.isExt(path.extname(file)))
     .map(parser)
     .value()
-  const temp = await Promise.all(promises)
-  const result = _.chain(temp)
+  const rows = await Promise.all(promises)
+  // merge with identical (judge, id) = problem
+  const group = _.chain(rows)
     .compact()
-    .groupBy(obj => `(${obj.judge},${obj.id})`)
-    .map(objs => _.chain(objs)
-      .flatMap(obj => _.toPairs(obj))
+    .groupBy('problem')
+    .mapValues((objs, key) => {
+      const taglist = config.getMerge('taglist', _.map(objs, obj => _.pick(obj, ['isnew', 'tag'])))
+      const source  = config.getMerge('source',  _.map(objs, 'source'))
+      const contest = config.getMerge('contest', _.map(objs, 'contest'))
+      const prob = _.chain(objs)
+        .flatMap(obj => _.chain(obj).omit(['isnew', 'tag', 'source', 'contest']).toPairs().value())
+        .groupBy(0)
+        .mapValues((ps, key) => config.getMerge(key, _.map(ps, 1)))
+        .value()
+      return {
+        source,
+        contest,
+        taglist,
+        problist: [ prob ]
+      }
+    })
+    .value()
+  // merge with source
+  const edges   = _.flatMap(group, (g, key) => _.map(g.source, src => [src, key]))
+  const mapping = forest.grouping(_.keys(group), edges)
+  const result  = _.chain(group)
+    .map((g, key) => [mapping[key], g])
+    .groupBy(0)
+    .map(gs => _.chain(gs)
+      .map(1)
+      .flatMap(g => _.toPairs(g))
       .groupBy(0)
-      .mapValues((ps, key) => merger(key, _.map(ps, 1)))
+      .mapValues((ps, key) => config.getMerge(key, _.map(ps, 1)))
       .value())
     .value()
+  // output
   await fs.promises.mkdir(`${root}/dist`, { recursive: true })
   await fs.promises.writeFile(`${root}/dist/data.json`, JSON.stringify(result))
 }
