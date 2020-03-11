@@ -1,7 +1,7 @@
 /**
  *  @judge UVa
  *  @id 10474
- *  @tag Simple, Counting sort, Sorting
+ *  @tag Simple, Counting sort, Sortings
  */
 #include <stdio.h>
 #include <ctype.h>

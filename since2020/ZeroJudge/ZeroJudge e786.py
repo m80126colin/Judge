@@ -3,7 +3,7 @@
 	@id e786
 	@name b1.修辭迴文(Palindrome)
 
-	@tag Palindrome
+	@tag Palindrome, Distinct Item
 '''
 from sys import stdin
 

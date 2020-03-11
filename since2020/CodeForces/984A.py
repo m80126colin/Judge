@@ -3,7 +3,7 @@
 	@id 984A
 	@name Game
 
-	@tag Sorting
+	@tag Sortings
 '''
 input()
 res = sorted(map(int, input().split()))
