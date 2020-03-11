@@ -3,7 +3,7 @@
 	@id 1092B
 	@name Teams Forming
 
-	@tag Sorting
+	@tag Sortings
 '''
 n   = int(input())
 arr = sorted(map(int, input().split()), key=lambda x: -x)

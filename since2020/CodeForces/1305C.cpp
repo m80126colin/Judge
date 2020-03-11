@@ -4,7 +4,7 @@
  *  @name Kuroni and Impossible Calculation
  *  @contest Ozon Tech Challenge 2020
  * 
- *  @tag Math, Congruence
+ *  @tag Math, Modulus
  */
 #include <iostream>
 #include <cmath>

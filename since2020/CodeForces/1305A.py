@@ -4,7 +4,7 @@
 	@name Kuroni and the Gifts
 	@contest Ozon Tech Challenge 2020
 
-	@tag Sorting
+	@tag Sortings
 '''
 n = int(input())
 

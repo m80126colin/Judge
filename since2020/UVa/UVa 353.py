@@ -3,7 +3,7 @@
 	@id 353
 	@name Pesky Palindromes
 
-	@tag Palindrome
+	@tag Palindrome, Distinct Item
 '''
 from itertools import combinations
 from sys import stdin
