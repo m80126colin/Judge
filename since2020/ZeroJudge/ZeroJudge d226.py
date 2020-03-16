@@ -4,7 +4,7 @@
 	@name Back to High School Physics
 	@source UVa 10071
 
-	@tag Arithematic Operation
+	@tag Binary Operations
 '''
 from sys import stdin
 

@@ -3,7 +3,7 @@
 	@id 10300
 	@name Ecological Premium
 
-	@tag Arithematic Operation
+	@tag Binary Operations
 '''
 from functools import reduce
 

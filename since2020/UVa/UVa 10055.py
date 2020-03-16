@@ -3,7 +3,7 @@
 	@id 10055
 	@name Hashmat the Brave Warrior
 
-	@tag Arithematic Operation
+	@tag Binary Operations
 '''
 from sys import stdin
 
