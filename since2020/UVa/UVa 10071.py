@@ -3,7 +3,7 @@
 	@id 10071
 	@name Back to High School Physics
 
-	@tag Arithematic Operation
+	@tag Binary Operations
 '''
 from sys import stdin
 

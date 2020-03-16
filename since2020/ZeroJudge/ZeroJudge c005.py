@@ -4,7 +4,7 @@
 	@name Ecological Premium
 	@source UVa 10300
 
-	@tag Arithematic Operation
+	@tag Binary Operations
 '''
 from functools import reduce
 

@@ -4,7 +4,7 @@
 	@name Hashmat the Brave Warrior
 	@source UVa 10055
 
-	@tag Arithematic Operation
+	@tag Binary Operations
 '''
 from sys import stdin
 
