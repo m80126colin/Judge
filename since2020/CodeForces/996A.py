@@ -3,7 +3,7 @@
 	@id 996A
 	@name Hit the Lottery
 
-	@tag Simulation, Coin Change
+	@tag Greedy, Change-making
 '''
 from functools import reduce
 
