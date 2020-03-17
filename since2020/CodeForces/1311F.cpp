@@ -4,60 +4,55 @@
  *  @name Moving Points
  *  @contest CodeForces Round #624 div.3
  * 
- *  @tag Monotonic, Prefix Sum
+ *  @tag Monotonicity, Range Query
  */
-#include <iostream>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
-#define MAX 200010
+typedef long long int LL;
 
-int n, v[MAX], pos[MAX], mp[MAX];
-long long bit[MAX], node[MAX], x[MAX];
+int n;
+vector<int> pos, rev;
+vector<tuple<int, LL>> point;
+vector<LL> bit, node;
 
-void update(long long *tree, int idx, long long d) {
-	for (int i = idx + 1; i <= n; i += i & (-i)) {
+void update(vector<LL> &tree, int idx, LL d) {
+	for (int i = idx + 1; i < tree.size(); i += i & (-i))
 		tree[i] += d;
-	}
 }
 
-long long sum(long long *tree, int idx) {
-	long long res = 0;
-	for (int i = idx + 1; i; i -= i & (-i)) {
+LL query(const vector<LL> &tree, int idx) {
+	LL res = 0;
+	for (int i = idx + 1; i; i -= i & (-i))
 		res += tree[i];
-	}
 	return res;
 }
 
-bool poscmp(int L, int R) {
-	if (x[L] != x[R])
-		return x[L] < x[R];
-	return v[L] < v[R];
-}
-
 bool cmp(int L, int R) {
-	if (v[L] != v[R])
-		return v[L] < v[R];
-	return x[L] < x[R];
+	if (get<0>(point[L]) != get<0>(point[R]))
+		return get<0>(point[L]) < get<0>(point[R]);
+	return get<1>(point[L]) < get<1>(point[R]);
 }
 
-long long solve() {
-	long long ans = 0;
-	for (int i = 0; i <= n; i++) {
-		pos[i] = i;
-		bit[i] = node[i] = 0;
-	}
+LL solve() {
+	pos = rev = vector<int>(n);
+	bit = node = vector<LL>(n + 1, 0);
 	// indexed position
-	sort(pos, pos + n, &poscmp);
-	for (int i = 0; i < n; i++) {
-		mp[pos[i]] = i;
-	}
+	for (int i = 0; i < n; i++)
+		pos[i] = i;
+	sort(pos.begin(), pos.end(), [](int L, int R) {
+		return get<1>(point[L]) < get<1>(point[R]);
+	});
+	for (int i = 0; i < n; i++)
+		rev[pos[i]] = i;
 	// sort by velocity
-	sort(pos, pos + n, &cmp);
-	for (int i = 0; i < n; i++) {
-		int p = mp[pos[i]];
-		ans += sum(node, p) * x[pos[i]] - sum(bit, p);
-		update(bit, p, x[pos[i]]);
+	LL ans = 0;
+	sort(pos.begin(), pos.end(), cmp);
+	for (const auto &k : pos) {
+		int p = rev[k];
+		LL x = get<1>(point[k]);
+		ans += query(node, p) * x - query(bit, p);
+		update(bit, p, x);
 		update(node, p, 1);
 	}
 	return ans;
@@ -65,9 +60,10 @@ long long solve() {
 
 int main() {
 	cin >> n;
-	for (int i = 0; i < n; i++)
-		cin >> x[i];
-	for (int i = 0; i < n; i++)
-		cin >> v[i];
+	point = vector<tuple<int, LL>>(n);
+	for (auto && p : point)
+		cin >> get<1>(p);
+	for (auto && p : point)
+		cin >> get<0>(p);
 	cout << solve() << endl;
 }

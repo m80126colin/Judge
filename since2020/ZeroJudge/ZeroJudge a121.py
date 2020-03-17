@@ -3,7 +3,7 @@
 	@id a121
 	@name 質數又來囉
 
-	@tag Prime
+	@tag Prime, Range Query
 '''
 from math import ceil
 from itertools import chain
