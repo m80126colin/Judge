@@ -4,20 +4,16 @@
  *  @name Count Subrectangles
  *  @contest Codeforces Round #626
  * 
- *  @tag Range Query Problem
+ *  @tag Range Query
  */
-#include <iostream>
-#include <vector>
-#include <cmath>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
-#define MAX 40010
+typedef long long int LL;
 
-int n, m, k, a[MAX], b[MAX];
-vector<int> rx, ry;
-
-long long cntA[MAX], totA[MAX], cntB[MAX], totB[MAX];
+int n, m, k;
+vector<int> xs, ys;
+vector<LL> cntA, totA, cntB, totB;
 
 inline int posA(int a) {
 	return n + 1 - a;
@@ -26,52 +22,56 @@ inline int posB(int b) {
 	return m + 1 - b;
 }
 
-void update(long long *arr, int x, long long d) {
-	for (; x < MAX; x += x & (-x))
-		arr[x] += d;
+void update(vector<LL> &vs, int x, LL d) {
+	for (; x < vs.size(); x += x & (-x))
+		vs[x] += d;
 }
 
-long long prefix(long long *arr, int x) {
-	long long ans = 0;
+LL query(const vector<LL> &vs, int x) {
+	LL ans = 0;
 	for (; x > 0; x -= x & (-x))
-		ans += arr[x];
+		ans += vs[x];
 	return ans;
 }
 
-long long sum(int a, int b) {
-	return (prefix(totA, posA(a)) - prefix(cntA, posA(a)) * (a - 1)) * (prefix(totB, posB(b)) - prefix(cntB, posB(b)) * (b - 1));
+LL count(int a, int b) {
+	return (query(totA, posA(a)) - query(cntA, posA(a)) * (a - 1)) * (query(totB, posB(b)) - query(cntB, posB(b)) * (b - 1));
 }
 
-long long solve() {
-	// init
-	for (int i = 0; i <= n + 1; i++)
-		cntA[i] = totA[i] = 0;
-	for (int j = 0; j <= m + 1; j++)
-		cntB[j] = totB[j] = 0;
-	//
-	for (int i = 0; i < n; i++) {
-		if (a[i + 1] == 0 || (i == n - 1 && a[i] > 0)) {
-			update(cntA, posA(a[i]), 1);
-			update(totA, posA(a[i]), a[i]);
+void shrink(const vector<int> &vs, vector<LL> &cnt, vector<LL> &tot) {
+	int c = 0;
+	vector<int> res;
+	for (const auto &v : vs) {
+		if (v == 1)
+			c++;
+		else if (c > 0) {
+			res.push_back(c);
+			c = 0;
 		}
-		else a[i + 1] = a[i] + 1;
 	}
-	for (int j = 0; j < m; j++) {
-		if (b[j + 1] == 0 || (j == m - 1 && b[j] > 0)) {
-			update(cntB, posB(b[j]), 1);
-			update(totB, posB(b[j]), b[j]);
-		}
-		else b[j + 1] = b[j] + 1;
+	if (vs.back() > 0)
+		res.push_back(c);
+	for (const auto &x : res) {
+		update(cnt, vs.size() + 1 - x, 1);
+		update(tot, vs.size() + 1 - x, x);
 	}
+	return ;
+}
+
+LL solve() {
+	cntA = totA = vector<LL>(n + 1);
+	cntB = totB = vector<LL>(m + 1);
+	shrink(xs, cntA, totA);
+	shrink(ys, cntB, totB);
 	//
+	LL ans = 0;
 	int sqk = sqrt((double) k + 0.1);
-	long long ans = 0;
 	for (int x = 1; x <= sqk; x++) {
 		if (k % x == 0) {
 			int a = x, b = k / x;
-			ans += sum(a, b);
+			ans += count(a, b);
 			if (x * x != k) {
-				ans += sum(b, a);
+				ans += count(b, a);
 			}
 		}
 	}
@@ -79,10 +79,13 @@ long long solve() {
 }
 
 int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cout.tie(nullptr);
 	cin >> n >> m >> k;
-	for (int i = 0; i < n; i++)
-		cin >> a[i];
-	for (int j = 0; j < m; j++)
-		cin >> b[j];
+	xs = vector<int>(n);
+	ys = vector<int>(m);
+	for (auto &&x : xs) cin >> x;
+	for (auto &&y : ys) cin >> y;
 	cout << solve() << endl;
 }
