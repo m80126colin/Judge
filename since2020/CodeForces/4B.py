@@ -3,7 +3,7 @@
 	@id 4B
 	@name Before an Exam
 
-	@tag dp, Math, Knapsack
+	@tag Math, Knapsack
 '''
 from sys import stdin
 

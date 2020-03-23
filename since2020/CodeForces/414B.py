@@ -3,7 +3,7 @@
 	@id 414B
 	@name Mashmokh and ACM
 
-	@tag dp, Math
+	@tag Dynamic Programming, Math
 '''
 
 MOD = 1000000007
