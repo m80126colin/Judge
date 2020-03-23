@@ -4,7 +4,7 @@
 	@name Making Change
 	@source UVa 166
 
-	@tag Bounded Knapsack, Greedy, Making-change
+	@tag Bounded Knapsack, Greedy, Change-making
 '''
 from sys import stdin
 

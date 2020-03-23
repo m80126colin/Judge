@@ -4,7 +4,7 @@
 	@name Count Subrectangles
 	@contest Codeforces Round #626
 
-	@tag Tree Planting Problem
+	@tag Tree Planting
 '''
 from itertools import groupby
 
