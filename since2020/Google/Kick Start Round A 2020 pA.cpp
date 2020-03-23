@@ -1,4 +1,6 @@
 /**
+ *  @judge Kick Start
+ *  @id Round A 2020 pA
  *  @contest Google Kick Start Round A 2020
  *  @tag Greedy, Sortings
  */

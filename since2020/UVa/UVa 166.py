@@ -3,7 +3,7 @@
 	@id 166
 	@name Making Change
 
-	@tag Bounded Knapsack, Greedy, Making-change
+	@tag Bounded Knapsack, Greedy, Change-making
 '''
 from sys import stdin
 
