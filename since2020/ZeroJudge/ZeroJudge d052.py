@@ -15,7 +15,10 @@ def solve(arr, n):
 	ls = arr[::-1] + arr
 	lis = []
 	for x in ls:
-		lis.insert(bisect_left(lis, x), x)
+		if not lis or lis[-1] < x:
+			lis.append(x)
+		else:
+			lis[ bisect_left(lis, x) ] = x
 	return len(lis)
 
 t = int(input())

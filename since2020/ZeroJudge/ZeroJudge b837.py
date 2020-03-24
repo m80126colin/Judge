@@ -1,6 +1,6 @@
 '''
 	@judge ZeroJudge
-	@id d837
+	@id b837
 	@name 104北二1費氏數列
 
 	@tag Fibonacci Number, Binary Search
