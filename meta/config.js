@@ -43,7 +43,14 @@ const mappingAttr = {
 const isExt    = ext  => ext in mappingRegex
 const getRegex = ext  => commentRegex[ mappingRegex[ext] ]
 const attrType = attr => mappingAttr[attr]
-const getMerge = (attr, vals) => mergeAttr[ mappingAttr[attr] ](vals)
+const getMerge = (attr, vals) => {
+  const func = mergeAttr[ mappingAttr[attr] ]
+  if (!_.isFunction(func)) {
+    console.error('[Unknown Attribute]', attr)
+    return undefined
+  }
+  return func(vals)
+}
 
 module.exports = {
   isExt,
