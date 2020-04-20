@@ -1,7 +1,9 @@
 /**
- *  @judge Kick Start
+ *  @judge Google Kick Start
  *  @id Round A 2020 pC
+ *  @name Workout
  *  @contest Google Kick Start Round A 2020
+ * 
  *  @tag Minimax Problem
  */
 #include <bits/stdc++.h>

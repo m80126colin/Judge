@@ -1,7 +1,9 @@
 /**
- *  @judge Kick Start
+ *  @judge Google Kick Start
  *  @id Round A 2020 pB
+ *  @name Plates
  *  @contest Google Kick Start Round A 2020
+ * 
  *  @tag Bounded Knapsack
  */
 #include <bits/stdc++.h>
