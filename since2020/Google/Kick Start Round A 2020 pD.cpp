@@ -1,7 +1,9 @@
 /**
- *  @judge Kick Start
+ *  @judge Google Kick Start
  *  @id Round A 2020 pD
+ *  @name Bundling
  *  @contest Google Kick Start Round A 2020
+ * 
  *  @tag Trie, Tree Dynamic Programming
  */
 #include <bits/stdc++.h>

@@ -1,7 +1,9 @@
 /**
- *  @judge Kick Start
+ *  @judge Google Kick Start
  *  @id Round A 2020 pA
+ *  @name Allocation
  *  @contest Google Kick Start Round A 2020
+ * 
  *  @tag Greedy, Sortings
  */
 #include <bits/stdc++.h>
